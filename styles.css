@@ -1,24 +1,82 @@
 body {
-margin: 0;
+  margin: 0;
 }
+
 @font-face {
-    font-family: font_sansserif;
-    src: url(font1/static/Figtree-Light.ttf);
-    font-weight: lighter;
+  font-family: font_sansserif;
+  src: url(font1/static/Figtree-Light.ttf);
+  font-weight: lighter;
+}
+
+@media only screen and (max-width: 600px) {
+  .material-symbols-outlined {
+    display: none;
   }
+}
 
 /* header */
+#header {
+  font-family: font_sansserif;
+}
+
 #pencil-banner {
-    background-color: #041c2c;
-    color: white;
-    font-family: font_sansserif;
-    width: 100%;
-    text-align: center;
-    top: 20;
-    margin: 0;
-    padding: 9px 0;
-    font-size: 11px;
-    letter-spacing: .053125em;
+  background-color: #041c2c;
+  color: white;
+  width: 100%;
+  text-align: center;
+  top: 20;
+  margin: 0;
+  padding: 9px 0;
+  font-size: 11px;
+  letter-spacing: .053125em;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  transition: 0.3s;
+}
+
+/* Schließen Button Off canvas */
+.sidenav .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 36px;
+  /* margin-right: 50px; */
+  width: 20px;
+  height: 20px;
+  color: #041c2c;
+}
+
+#navbar {
+  transition: margin-right .5s;
+  padding: 16px;
+}
+
+#mysidenav {
+  text-align: center;
 }
 
 /* body */
