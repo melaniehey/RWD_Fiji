@@ -2,6 +2,24 @@ body {
   margin: 0;
 }
 
+#backgroundimage1 {
+  background: url(Image/underwater.jpg);
+  background-size: contain;
+  min-width: 100%;
+  min-height: 100%;
+  /* background-size:100% 100%; */
+  background-repeat: no-repeat;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+/* background  */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Using_multiple_backgrounds */
+
+.btn {
+  border: none !important;
+}
+
 @font-face {
   font-family: font_sansserif;
   src: url(font1/static/Figtree-Light.ttf);
@@ -19,10 +37,8 @@ body {
   font-family: font_sansserif;
 }
 
-#pencil-banner {
+.navbar {
   background-color: #041c2c;
-  color: white;
-  width: 100%;
   text-align: center;
   top: 20;
   margin: 0;
@@ -30,6 +46,49 @@ body {
   font-size: 11px;
   letter-spacing: .053125em;
 }
+
+/* https://stackoverflow.com/questions/27973549/bootstrap-dropdown-move-other-content */
+/* https://getbootstrap.com/docs/5.0/layout/columns/#offset-classes */
+/* .container .dropdown-menu {
+ position: static;
+ float: none;
+} */
+
+.dropdown-content {
+  border: none !important;
+  font-size: 0.9rem !important;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* svg von sconnencreme */
+#suncreen {
+  width: auto !important;
+  height: 350px !important;
+}
+
+.action-btn {
+  background-color: rgb(163, 200, 213) !important;
+  /* padding: 10px 20px 10px 20px !important; */
+  font-size: 0.8rem !important;
+}
+
+/* .button-border {
+  border: #041c2c !important;
+} */
+
+.fiji-logo, .material-symbols-outlined {
+  height: 60px;
+  font-size: 40px !important;
+  color: aliceblue;
+}
+
+
+
+
+
 
 #navbar {
   display: flex;
