@@ -15,194 +15,206 @@
 </head>
 
 <body>
-    <!-- <div class="container">
-        <div class="row">
-
-            <div class="col-sm-6 col-md-12">Hahahah Poopie</div>
-            <div clas="col-sm-6 col-md-12">Hahhaha Stinkie</div>
-        </div>
+    <!-- <div class="row"> -->
+    <!-- col-sm-6 col-md-12 macht es responsive -->
+    <!-- <div class="col-sm-6 col-md-12">Hahahah Poopie</div>
+        <div clas="col-sm-6 col-md-12">Hahhaha Stinkie</div>
     </div> -->
 
     <div id="backgroundimage1">
-        <div id="header">
-            <!-- blue bar, text-center???????-->
-            <nav class="navbar">
-                <div class="container-fluid">
-                    <span class="mb-0 text-white">FREE STANDARD DELIVERY TO YOUR DOOR IN THE USA</span>
-                </div>
-            </nav>
-            <!-- Menü handy -->
-            <ul class="nav nav-pills nav-fill position-relative">
-                <li class="navbar-item nav-item position-absolute top-0 start-0">
-                    <!-- Offcanvas Menu-->
-                    <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
-                        aria-controls="offcanvasExample">
-                        <span class="material-symbols-outlined"> menu </span>
-                    </a>
-
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample"
-                        aria-labelledby="offcanvasExampleLabel">
-                        <!--hier unten war noch .offcanvas-header - brachte die zwei icons dazu sich nicht zu bewegen -->
-                        <!-- <div class="container text-right my-5 ms-5">
+        <div class="container">
             <div class="row">
-                <span class="col material-symbols-outlined">
-                    check_box_outline_blank
-                </span>
-                <div class="col text-right ms-5">
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <!-- blue bar -->
+                <nav class="navbar">
+                    <div class="container-fluid">
+                        <span class="mb-0 text-white">FREE STANDARD DELIVERY TO YOUR DOOR IN THE USA</span>
+                    </div>
+                </nav>
+            </div>
+            <div class="row">
+                <!-- Menü handy -->
+                <ul class="nav nav-pills nav-fill position-relative">
+                    <li class="navbar-item nav-item position-absolute top-0 start-0">
+                        <!-- Offcanvas Menu-->
+                        <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                            aria-controls="offcanvasExample">
+                            <span class="material-symbols-outlined"> menu </span>
+                        </a>
+                        <div class="offcanvas offcanvas-end border-0" tabindex="-1" id="offcanvasExample"
+                            aria-labelledby="offcanvasExampleLabel">
+                            <div class="my-5 justify-content-between">
+                                <img src="Image/fiji-water-logo.png" alt="fiji-water-logo-image">
+                                <button type="button" class="justify-content-end btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="dropdown-center text-center">
+                                <button class="btn mb-4 dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    SHOP
+                                </button>
+                                <ul class="dropdown-content dropdown-menu text-center">
+                                    <li><a class="dropdown-item mb-2" href="#">Sunscreen</a></li>
+                                    <li><a class="dropdown-item mb-2" href="#">Subscribe</a></li>
+                                    <li><a class="dropdown-item mb-2" href="#">Gift Cards</a></li>
+                                </ul>
+                            </div>
+                            <button class="btn mb-4" type="button">
+                                SUSTAINABILITY
+                            </button>
+                            <button class="btn mb-4" type="button">
+                                THE SUNSCREEN
+                            </button>
+                            <button class="btn mb-4" type="button">
+                                ABOUT US
+                            </button>
+                            <div class="dropdown-center text-center">
+                                <button class="btn mb-4 dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                    SUPPORT
+                                </button>
+                                <ul class="dropdown-content dropdown-menu text-center">
+                                    <li><a class="dropdown-item mb-2" href="#">9AM - 5PM PST</a></li>
+                                    <li><a class="dropdown-item mb-2" href="#">info@fijisunscreen.com</a></li>
+                                    <li><a class="dropdown-item mb-2" href="#">Contact us</a></li>
+                                    <li><a class="dropdown-item mb-2" href="#">FAQ</a></li>
+                                </ul>
+                            </div>
+                            <button class="btn mb-4" type="button">
+                                ACCOUNT
+                            </button>
+                        </div>
+                    </li>
+                    <li class="navbar-item nav-item position-absolute top-0 start-50 translate-middle-x">
+                        <!-- <a href="https://fonts.google.com/icons?icon.query=x"></a> -->
+                        <a href="http://www.meineWebseiteXYZ.de" title="Website name"><i class="icon-home icon-4x"></i>
+                            <img class="fiji-logo pt-1" src="Image/fiji-water-logo.png" alt="fiji-water-logo-image">
+                        </a>
+                    </li>
+                    <li class="navbar-item nav-item position-absolute top-0 end-0" id="navbar-item-right">
+                        <!-- offcanvas einkaufswagen -->
+                        <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample2" role="button"
+                            aria-controls="offcanvasExample2">
+                            <span class="material-symbols-outlined">
+                                shopping_cart
+                            </span>
+                        </a>
+                        <div class="offcanvas offcanvas-end border-0" tabindex="-1" id="offcanvasExample2"
+                            aria-labelledby="offcanvasExampleLabel">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <button type="button"
+                                            class="justify-content-end btn-close position-absolute top-0 end-0 pt-4 pe-4"
+                                            data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                </div>
+                                <div class="row pt-5">
+                                    <div class="col">
+                                        <p class="text-start ps-3">0 items</p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="text-end pe-3">
+                                            TOTAL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>$0</strong></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="pe-4 ps-4">
+                                        <hr class="style1">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="align-items-center"> <!--vertical alignment -->
+                                        <p>Your bag is empty</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <div id="page1" class="pt-4">
+                    <h1 class="text-center pt-5 text-white">INTRODUCING 100% RECYCLED PLASTIC PACKAGING</h1>
+                    <p class="text-center pt-4 px-5 text-white">We are proud to announce that FIJI Water’s 330mL and
+                        500mL
+                        bottles are now
+                        made of 100% recycled plastic.</p>
+                    <!-- 3d modell -->
+                    <img id="suncreen" class="position-absolute bottom-0 start-50 translate-middle-x"
+                        src="Image/50FaceAusgeschnittenZugeschnitten.png" alt="Sunscreen Photo">
+                    <!-- button -->
+                    <div class="button-border d-grid gap-2 col-6 mx-auto">
+                        <button class="myButton" type="button"></button>
+                    </div>
+                  
+
+
+                </div>
+                <br>
+                <br>
+                <br>
+                <br><!--Hier Inhalte einfügen-->
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+            <div class="row">
+                <div id="page2">
                 </div>
             </div>
-        </div> -->
-                        <div class="my-5 justify-content-between">
-                            <img src="Image/fiji-water-logo.png" alt="fiji-water-logo-image">
-                            <button type="button" class="justify-content-end btn-close" data-bs-dismiss="offcanvas"
-                                aria-label="Close"></button>
-                        </div>
-                        <div class="dropdown-center text-center">
-                            <button class="btn mb-4 dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                SHOP
-                            </button>
-                            <ul class="dropdown-content dropdown-menu text-center">
-                                <li><a class="dropdown-item mb-2" href="#">Sunscreen</a></li>
-                                <li><a class="dropdown-item mb-2" href="#">Subscribe</a></li>
-                                <li><a class="dropdown-item mb-2" href="#">Gift Cards</a></li>
-                            </ul>
-                        </div>
-                        <button class="btn mb-4" type="button">
-                            SUSTAINABILITY
-                        </button>
-                        <button class="btn mb-4" type="button">
-                            THE SUNSCREEN
-                        </button>
-                        <button class="btn mb-4" type="button">
-                            ABOUT US
-                        </button>
-                        <div class="dropdown-center text-center">
-                            <button class="btn mb-4 dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                                SUPPORT
-                            </button>
-                            <ul class="dropdown-content dropdown-menu text-center">
-                                <li><a class="dropdown-item mb-2" href="#">9AM - 5PM PST</a></li>
-                                <li><a class="dropdown-item mb-2" href="#">info@fijisunscreen.com</a></li>
-                                <li><a class="dropdown-item mb-2" href="#">Contact us</a></li>
-                                <li><a class="dropdown-item mb-2" href="#">FAQ</a></li>
-                            </ul>
-                        </div>
-                        <button class="btn mb-4" type="button">
-                            ACCOUNT
-                        </button>
-                    </div>
-                </li>
-                <li class="navbar-item nav-item position-absolute top-0 start-50 translate-middle-x">
-                    <!-- <a href="https://fonts.google.com/icons?icon.query=x"></a> -->
-                    <a href="http://www.meineWebseiteXYZ.de" title="Website name"><i class="icon-home icon-4x"></i>
-                        <img class="fiji-logo pt-1" src="Image/fiji-water-logo.png" alt="fiji-water-logo-image">
-                    </a>
-                </li>
-                <li class="navbar-item nav-item position-absolute top-0 end-0" id="navbar-item-right">
-                    <!-- offcanvas einkaufswagen -->
-                    <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample2" role="button"
-                        aria-controls="offcanvasExample2">
-                        <span class="material-symbols-outlined">
-                            shopping_cart
-                        </span>
-                    </a>
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample2"
-                        aria-labelledby="offcanvasExampleLabel">
-                        <!-- <div class="container">
-                            <div class="row">
-                                <div class="col-sm">
-                                    <button type="button"
-                                        class="justify-content-end btn-close position-absolute top-0 end-0 pt-4 pe-4"
-                                        data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                </div>
-                                <div class="col-sm">
-                                    <p class="text-start">0 items</p>
-                                </div>
-                                <div class="col-sm">
-                                    <p class="text-end">TOTAL</p>
-                                </div>
-                                <div class="col-sm">
-                                    <p class="text-end fw-bold">$0</p>
-                                </div>
-                            </div>
-                        </div> -->
-
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm">
-                                    <button type="button"
-                                        class="justify-content-end btn-close position-absolute top-0 end-0 pt-4 pe-4"
-                                        data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                </div>
-                                <div class="col-3">
-                                    <p >0 items</p>
-                                </div>
-                                <div class="col-3">
-                                    <p >TOTAL</p>
-                                </div>
-                                <div class="col-3">
-                                    <p class="text-end fw-bold">$0</p>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div> <!--vertical alignment -->
-                            <p>Your bag is empty</p>
-                        </div>
-
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div id="page1" class="pt-4">
-            <h1 class="text-center pt-5 text-white">INTRODUCING 100% RECYCLED PLASTIC PACKAGING</h1>
-            <p class="text-center pt-4 px-5 text-white">We are proud to announce that FIJI Water’s 330mL and 500mL
-                bottles are now
-                made of 100% recycled plastic.</p>
-            <!-- 3d modell -->
-            <img id="suncreen" class="position-absolute bottom-0 start-50 translate-middle-x" src="Image/sunscreen.png"
-                alt="Suncreen 3D Model">
-            <!-- button -->
-            <div class="button-border d-grid gap-2 col-6 mx-auto">
-                <button type="button" id="abc" class="action-btn btn border rounded-0" onclick="changeColor();">SEE THE
-                    CAMPAIGN
-                </button>
+            <div class="row">
+                <div id="page3">
+                </div>
             </div>
-            <a type="button" id="abc" class="action-btn btn border rounded-0" onclick="changeColor();">SEE THE CAMPAIGN
-            </a>
+            <div class="row">
+                <div id="footer/page4">
+                    <img class="fiji-logo pt-1" src="Image/fiji-water-logo.png" alt="fiji-water-logo-image">
+                    hää
+                </div>
+            </div>
         </div>
-        <br>
-        <br>
-        <br>
-        <br><!--Hier Inhalte einfügen-->
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+
+
+
+
+
     </div>
 
-
-
-
-    <div id="page2">
-    </div>
-
-    <div id="page3">
-    </div>
-
-
-
-
-    <div id="footer/page4">
-        <img class="fiji-logo pt-1" src="Image/fiji-water-logo.png" alt="fiji-water-logo-image">
-        hää
-    </div>
 
 
 
