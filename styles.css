@@ -4,19 +4,21 @@ body {
 
 #backgroundimage1 {
   background: url(Image/underwater.jpg);
-  background-size: contain;
   min-width: 100%;
   min-height: 100%;
-  /* background-size:100% 100%; */
+  background-size: cover;
   background-repeat: no-repeat;
   overflow-y: hidden;
   overflow-x: hidden;
+  background-position: center;
 }
 
 /* background  */
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Using_multiple_backgrounds */
 
-.btn {
+
+/*Regel verstärkt sich durch Body plus Klasse*/
+body .btn {
   border: none !important;
 }
 
@@ -85,7 +87,9 @@ ul {
   color: aliceblue;
 }
 
-
+.navbar .container-fluid{
+  flex-direction: column;
+}
 
 
 
