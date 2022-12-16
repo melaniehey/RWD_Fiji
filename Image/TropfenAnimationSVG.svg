@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<svg id="Group25" width="143" height="201" viewBox="0 0 143 201" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width: 100%; max-height: 100%;">
+<path d="M2.16595 132.597C3.40729 104.826 60.4768 3.00171 60.4768 3.00171C60.4768 3.00171 120.556 102.66 122.005 132.597C123.454 162.533 115.588 198.625 60.4768 198.625C5.36531 198.625 0.924613 160.367 2.16595 132.597Z" stroke="black" stroke-width="3" stroke-dasharray="0,0,0,494.2047119140625"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="1.6666666666666667s" values="0,0,0,494.2047119140625; 
+          0,247.10235595703125,247.10235595703125,0; 
+          494.2047119140625,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></path>
+<path d="M16.2408 141.854C16.2408 141.854 13.7571 155.049 23.6919 170.018C33.6268 184.986 52.2546 186.562 52.2546 186.562" stroke="black" stroke-width="3" stroke-dasharray="0,0,0,63.767147064208984"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="1.6666666666666667s" values="0,0,0,63.767147064208984; 
+          0,31.883573532104492,31.883573532104492,0; 
+          63.767147064208984,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></path>
+<path d="M141.203 142.247C141.203 160.82 125.358 176.002 105.654 176.002C85.9501 176.002 70.1055 160.82 70.1055 142.247C70.1055 123.674 85.9501 108.493 105.654 108.493C125.358 108.493 141.203 123.674 141.203 142.247Z" stroke="black" stroke-width="3" stroke-dasharray="0,0,0,217.7881317138672"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="1.6666666666666667s" values="0,0,0,217.7881317138672; 
+          0,108.8940658569336,108.8940658569336,0; 
+          217.7881317138672,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></path>
+<path d="M87.2878 147.852L100.291 158.532L125.64 128.195" stroke="black" stroke-width="3" stroke-dasharray="0,0,0,56.360511779785156"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="1.6666666666666667s" values="0,0,0,56.360511779785156; 
+          0,28.180255889892578,28.180255889892578,0; 
+          56.360511779785156,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></path>
+<setting>{"type":"direct","speed":30,"random":1,"shift":1,"size":1,"rupture":50}</setting></svg>
