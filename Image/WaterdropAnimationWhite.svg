@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<svg id="Group88" width="175" height="244" viewBox="0 0 175 244" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width: 100%; max-height: 100%;">
+<path d="M141.409 133.874C122.317 83.7668 73.0233 2 73.0233 2C73.0233 2 2.73329 127.413 1.20439 161.616C-0.324506 195.82 5.1449 242.941 73.0233 242.941C107.691 242.941 127.18 231.345 137.714 215.086" stroke="white" stroke-width="2" stroke-dasharray="0,0,0,524.38134765625"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="2.5s" values="0,0,0,524.38134765625; 
+          0,262.190673828125,262.190673828125,0; 
+          524.38134765625,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></path>
+<path d="M18.5401 173.018C18.5401 173.018 15.481 189.27 27.7173 207.706C39.9536 226.142 62.8966 228.083 62.8966 228.083" stroke="white" stroke-width="2" stroke-dasharray="0,0,0,78.53907775878906"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="2.5s" values="0,0,0,78.53907775878906; 
+          0,39.26953887939453,39.26953887939453,0; 
+          78.53907775878906,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></path>
+<path d="M173.298 173.503C173.298 196.885 153.364 215.924 128.667 215.924C103.971 215.924 84.0361 196.885 84.0361 173.503C84.0361 150.12 103.971 131.081 128.667 131.081C153.364 131.081 173.298 150.12 173.298 173.503Z" stroke="white" stroke-width="2" stroke-dasharray="0,0,0,273.5649719238281"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="2.5s" values="0,0,0,273.5649719238281; 
+          0,136.78248596191406,136.78248596191406,0; 
+          273.5649719238281,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></path>
+<path d="M106.046 180.405L122.061 193.559L153.283 156.195" stroke="white" stroke-width="2" stroke-dasharray="0,0,0,69.4162826538086"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="2.5s" values="0,0,0,69.4162826538086; 
+          0,34.7081413269043,34.7081413269043,0; 
+          69.4162826538086,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></path>
+<setting>{"type":"direct","speed":20,"random":1,"shift":1,"size":1,"rupture":50}</setting></svg>
