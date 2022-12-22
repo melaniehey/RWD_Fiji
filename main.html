@@ -35,20 +35,30 @@
                 <!-- blue bar -->
                 <nav class="navbar">
                     <div class="container-fluid">
+                        <!-- https://getbootstrap.com/docs/5.0/layout/containers/ -->
                         <span class="mb-0 text-white">FREE STANDARD DELIVERY/Filiale erhältlich</span>
                     </div>
                 </nav>
             </div>
             <!-- 3d modell -->
-            <img id="suncreen" class="position-absolute bottom-0 start-50 translate-middle-x"
-                src="Image/50FaceAusgeschnittenZugeschnitten.png" alt="Sunscreen Photo">
+            <!-- <img id="suncreen" class="position-absolute bottom-0 start-50 translate-middle-x"
+                src="Image/50FaceAusgeschnittenZugeschnitten.png" alt="Sunscreen Photo"> -->
             <div class="button-border d-grid gap-2 col-6 mx-auto position-absolute top-50 start-50 translate-middle">
-                <button class="myFontSmall myButton" type="button"></button>
+                <button class="noDesktopBtn myFontSmall myButton" type="button"></button>
             </div>
             <div class="row navSticky g-0">
                 <!-- Menü handy -->
                 <ul class="nav nav-pills nav-fill position-relative">
-                    <li class="navbar-item nav-item position-absolute top-0 start-0">
+
+                    <!-- <li><a class="desktopBtn position-absolute top-0 start-0" href=""> SHOP</a></li>
+                        <li><a class="desktopBtn position-absolute top-0 start-50 translate-middle-x" href=""> SUSTAINABILITY</a></li>
+                        <li><a class="desktopBtn position-absolute top-0 end-0" href=""> THE CREAM</a></li>
+                        <li><a href="http://www.meineWebseiteXYZ.de" title="Website name"><i class="icon-home icon-4x position-absolute top-0 start-50 translate-middle"></i>
+                            <img class="fiji-logo pt-1" src="Image/fiji-water-logo.png" alt="fiji-water-logo-image">
+                        </a></li> -->
+
+
+                    <li class="noDesktopBtn navbar-item nav-item position-absolute top-0 start-0">
                         <!-- Offcanvas Menu-->
                         <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
                             aria-controls="offcanvasExample">
@@ -103,6 +113,9 @@
                             <img class="fiji-logo pt-1" src="Image/fiji-water-logo.png" alt="fiji-water-logo-image">
                         </a>
                     </li>
+                    <!-- <a class="desktopBtn" href="">ABOUT US</a>
+                    <a class="desktopBtn" href="">SUPPORT</a>
+                    <a class="desktopBtn" href="">ACCOUNT</a> -->
                     <li class="navbar-item nav-item position-absolute top-0 end-0" id="navbar-item-right">
                         <!-- offcanvas einkaufswagen -->
                         <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample2" role="button"
@@ -153,11 +166,124 @@
                         </div>
                     </li>
                 </ul>
+
+                <!-- TEST NAV DESKTOP -->
+                <!-- <div class="pt-1">
+                    <ul class="pt-5 pb-5 position-relative">
+                        <li><a class="desktopBtn position-absolute top-50 start-0" href=""> SHOP</a></li>
+                        <li><a class="desktopBtn position-absolute top-50 start-50 translate-middle-x"
+                                href="">SUSTAINABILITY</a></li>
+                        <li><a class="desktopBtn position-absolute top-50 end-0" href=""> THE CREAM</a></li>
+                        <li><a href="http://www.meineWebseiteXYZ.de" title="Website name"><i
+                                    class="icon-home icon-4x position-absolute top-50 start-50 translate-middle"></i>
+                                <img class="fiji-logo pt-1" src="Image/fiji-water-logo.png" alt="fiji-water-logo-image">
+                            </a></li>
+                        <li><a class="desktopBtn" href="">SHOP</a></li>
+                    </ul>
+                </div> -->
+
+                <!-- <div class="container text-center">
+                    <div class="row">
+                        <div class="col-8">
+                            <a class="desktopBtn" href="">SHOP</a>
+
+                            <a class="desktopBtn" href="">SHOP</a>
+
+                            <a class="desktopBtn" href="">SHOP</a>
+
+
+
+                            <div class="col">
+                                <a class="desktopBtn" href="">SHOP</a>
+                            </div>
+                            <div class="col">
+                                <a class="desktopBtn" href="">SOP</a>
+                            </div>
+                            <div class="col">
+                                <a class="desktopBtn" href="">SHOP</a>
+                            </div>
+                            <div class="col">
+                                <a href="http://www.meineWebseiteXYZ.de" title="Website name"><i
+                                    class="icon-home icon-4x position-absolute top-50 start-50 translate-middle"></i>
+                                <img class="fiji-logo pt-1" src="Image/fiji-water-logo.png" alt="fiji-water-logo-image">
+                            </div>
+                            <div class="col">
+                                <a class="desktopBtn" href="">SHOP</a>
+                            </div>
+                            <div class="col">
+                                <a class="desktopBtn" href="">SHOP</a>
+                            </div>
+                            <div class="col">
+                                <a class="desktopBtn" href="">SHOP</a>
+                            </div>
+                            <div class="col">
+                                <a class="desktopBtn" href="">SHOP</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+
+                        </div>
+                        
+                    </div>
+                </div> -->
+
+
+                <!-- <div class="row">
+                    <div class="col-xs-6">
+                          <div class="row">
+                              <div class="col-xs-3">
+                                          1
+                              </div>
+                              <div class="col-xs-3">
+                                          2
+                              </div>
+                              <div class="col-xs-3">
+                                          3
+                              </div>
+                              <div class="col-xs-3">
+                                          4
+                              </div>
+                        </div>
+                  </div> 
+                  <div class="col-xs-6">
+                          <div class="row">
+                              <div class="col-xs-3">
+                                          5   
+                              </div>
+                              <div class="col-xs-3">
+                                          6
+                              </div>
+                              <div class="col-xs-3">
+                                          7
+                              </div>
+                              <div class="col-xs-3">
+                                          8
+                              </div>
+                        </div>
+                  </div>
+              </div> -->
+
+
+                <!-- <div class="grid">
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+              </div> -->
             </div>
             <div class="row">
                 <div id="page1" class="pt-4">
-                    <h1 class="text-center pt-5 text-white">INTRODUCING 100% RECYCLED PLASTIC PACKAGING</h1>
-                    <p class="text-center pt-4 px-5 text-white">We are proud to announce that FIJI Water’s 330mL and
+                    <h1 class="page1Text text-center pt-5 text-white">INTRODUCING 100% RECYCLED PLASTIC PACKAGING</h1>
+                    <p class="page1Text text-center pt-4 px-5 text-white">We are proud to announce that FIJI Water’s
+                        330mL and
                         500mL bottles are now made of 100% recycled plastic.</p>
                     <!-- 3d modell
                     <img id="suncreen" class="position-absolute bottom-0 start-50 translate-middle-x"
@@ -166,22 +292,23 @@
                     <!-- <div class="button-border d-grid gap-2 col-6 mx-auto">
                         <button class="myFontSmall myButton" type="button"></button>
                     </div> -->
-
-
-
+                    <div class="desktopBtn square position-absolute bottom-0 start-0 ">
+                        <h1 class="pt-5 px-5 text-white">INTRODUCING 100% RECYCLED PLASTIC PACKAGING
+                        </h1>
+                        <p class="pt-4 px-5 text-white">We are proud to announce that FIJI Water’s
+                            330mL and
+                            500mL bottles are now made of 100% recycled plastic.</p>
+                        <div class="button-border d-grid gap-2 col-6 mx-auto">
+                            <button class="myFontSmall myButton" type="button"></button>
+                        </div>
+                    </div>
+                    <img id="suncreen" class="position-absolute bottom-0 start-50 translate-middle-x"
+                        src="Image/50FaceAusgeschnittenZugeschnitten.png" alt="Sunscreen Photo">
                 </div>
                 <br>
                 <br>
                 <br>
                 <br><!--Hier Inhalte einfügen-->
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
                 <br>
                 <br>
                 <br>
@@ -261,22 +388,38 @@
             <div id="backgroundimage3">
                 <div id="page3">
                     <div class="container text-center pt-5">
+
+
+
                         <div class="row justify-content-md-center">
                             <div class="col">
                                 <p class="text-center pt-5 px-5 text-white">ORDER TO</p>
                                 <h1 class="text-center text-white">PROTECT, CARE & ENJOY</h1>
                             </div>
+                        </div>
+                        <div class="row justify-content-md-center pb-5">
                             <div class="col pt-5">
                                 <img src="Image/SunAnimationWhite.svg" alt="Sonne Animation">
                                 <p class="text-center pt-3 px-5 text-white">BROAD-SPECTRUM PROTECTION</p>
+                                <p class="desktopBtn text-center pt-3 px-5 text-white">Our sunscreen protects your skin
+                                    from sunburn, UV-A, UV-B and infrared rays.</p>
                             </div>
-                            <div class="col">
+                            <div class="col pt-5">
                                 <img src="Image/CorallAnimationWhite.svg" alt="Koralle Animation">
                                 <p class="text-center pt-3 px-5 text-white">CORAL FRIENDLY FORMULA</p>
+                                <p class="desktopBtn text-center pt-3 px-5 text-white">Our sunscreen protects your skin
+                                    from sunburn, UV-A, UV-B and infrared rays.</p>
                             </div>
-                            <div class="col">
+                            <div class="col pt-5">
                                 <img class="IconGIF" src="Image/tropfenTestDick.gif" alt="Sonne Animation">
                                 <p class="text-center pt-3 px-5 text-white">HELLO SUNSHINE</p>
+                                <p class="desktopBtn text-center pt-3 px-5 text-white">Our sunscreen protects your skin
+                                    from sunburn, UV-A, UV-B and infrared rays.</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-md-center pb-5 pt-3">
+                            <div class="button-border">
+                                <button class="myFontSmall myButton2" type="button"></button>
                             </div>
                         </div>
                     </div>
@@ -317,8 +460,7 @@
                         </div>
                     </div>
                     <div class="row">
-
-                        <div class="dropdown">
+                        <div class="dropdown noDesktopBtn">
                             <button class="footerBnt dropdown-toggle text-start" type="button" id="dropdownMenuButton1"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 CONTACT US
@@ -330,7 +472,7 @@
                                 <p>Los Angeles, CA 90064</p>
                             </ul>
                         </div>
-                        <div class="dropdown">
+                        <div class="dropdown noDesktopBtn">
                             <button class="footerBnt dropdown-toggle text-start" type="button" id="dropdownMenuButton1"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 FIJI WATER
@@ -344,7 +486,7 @@
                                 <li><a class="myDropBtn mb-2" href="">Water Quality Report</a></li>
                             </ul>
                         </div>
-                        <div class="dropdown">
+                        <div class="dropdown noDesktopBtn">
                             <button class="footerBnt dropdown-toggle text-start" type="button" id="dropdownMenuButton1"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 TERMS & POLICIES
@@ -356,7 +498,7 @@
                                 <li><a class="myDropBtn mb-2" href="">Privacy Policy</a></li>
                             </ul>
                         </div>
-                        <div class="dropdown">
+                        <div class="dropdown noDesktopBtn">
                             <button class="footerBnt dropdown-toggle text-start" type="button" id="dropdownMenuButton1"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 CONNECT WITH US
@@ -368,7 +510,7 @@
                                 <li><a class="myDropBtn mb-2" href="">Privacy Policy</a></li>
                             </ul>
                         </div>
-                        <div class="dropdown">
+                        <div class="dropdown noDesktopBtn">
                             <button class="footerBnt dropdown-toggle text-start" type="button" id="dropdownMenuButton1"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 SECURE PAYMENTS
@@ -380,7 +522,7 @@
                                 <li><a class="myDropBtn mb-2" href="">Privacy Policy</a></li>
                             </ul>
                         </div>
-                        <div class="dropdown">
+                        <div class="dropdown noDesktopBtn">
                             <button class="footerBtnLast footerBnt dropdown-toggle text-start" type="button"
                                 id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                 FIJI INTERNATIONAL
@@ -393,7 +535,44 @@
                         </div>
                     </div>
                     <div class="row">
-                        <small class="text-center pt-5 pb-4">©2022 FIJI Water Company LLC. All Rights Reserved. FIJI, EARTH'S FINEST, EARTH'S FINEST
+                        <ul class="desktopBtn text-center">
+                            <li>Home</li>
+                            <li>About Us
+                                <ul>
+                                    <li>Lorem Ipsum</li>
+                                    <li>Lorem Ipsum</li>
+                                    <li>Lorem Ipsum</li>
+                                    <li>Lorem Ipsum</li>
+                                </ul>
+                            </li>
+                            <li>Portfolio
+                                <ul>
+                                    <li>Lorem Ipsum</li>
+                                    <li>Lorem Ipsum</li>
+                                    <li>Lorem Ipsum</li>
+                                    <li>Lorem Ipsum</li>
+                                </ul>
+                            </li>
+                            <li>Clients</li>
+                            <li>Events
+                                <ul>
+                                    <li>Lorem Ipsum</li>
+                                    <li>Lorem Ipsum</li>
+                                    <li>Lorem Ipsum</li>
+                                </ul>
+                            </li>
+                            <li>Media<ul>
+                                    <li>Lorem Ipsum</li>
+                                    <li>Lorem Ipsum</li>
+                                    <li>Lorem Ipsum</li>
+                                    <li>ILorem Ipsum</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <small class="text-center pt-5 pb-4">©2022 FIJI Water Company LLC. All Rights Reserved. FIJI,
+                            EARTH'S FINEST, EARTH'S FINEST
                             WATER, EARTH'S FINEST FOR FITNESS, UNTOUCHED BY MAN, the Trade Dress and accompanying logos
                             are trademarks of FIJI Water Company LLC or its affiliates.</small>
                     </div>

@@ -85,6 +85,11 @@ body .btn {
   letter-spacing: .053125em;
 }
 
+.desktopBtn {
+  display: none;
+}
+
+
 
 
 
@@ -328,11 +333,61 @@ Right: 3% !important;
   /* for IE9+, Firefox 4+, Opera, Chrome */
 }
 
-.myDropBtn {
+.myDropBtn,
+.desktopBtn {
   color: #000;
   text-decoration: none;
 }
 
 .IconGIF {
-  width: 250px;
+  width: 150px;
 }
+
+/* body{width:100%;} */
+ul {width:100%; list-style:none;}
+ul li {float:left; width:150px; font-weight:bold;}
+ul li ul {padding:0;}
+ul li ul li {float:none; padding:5px 0; font-weight:normal;}
+
+
+
+/* DESKTOP */
+/* Page 1 */
+
+@media only screen and (min-width: 992px) {
+  .noDesktopBtn {
+    display: none;
+  }
+
+  .desktopBtn {
+    display: block;
+  }
+
+  #suncreen {
+    /* display: none; */
+    /* width: auto !important; */
+    height: 600px !important;
+  }
+
+  .page1Text {
+    display: none;
+  }
+
+  .square {
+    height: 400px;
+    width: 500px;
+    background-color: rgba(4,28,44,.6);
+    backdrop-filter: blur(10px);
+    top: 230px;
+    
+  }
+
+}
+
+
+
+
+/* TABLET */
+/* Page 1 */
+
+@media only screen and (min-width: 768px) {}
