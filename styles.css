@@ -58,22 +58,22 @@ body .btn {
   border: none !important;
 }
 
-@font-face {
+/* @font-face {
   font-family: font_sansserif;
   src: url(font1/static/Figtree-Light.ttf);
   font-weight: lighter;
-}
+} */
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .material-symbols-outlined {
     display: none;
   }
-}
+} */
 
 /* header */
-#header {
+/* #header {
   font-family: font_sansserif;
-}
+} */
 
 .navbar {
   background-color: #041c2c;
@@ -281,19 +281,19 @@ ul {
   width: 100px !important;
 }
 
-.dropdown-toggle {   
-  overflow: hidden !important;
-  white-Space: nowrap !important;
-  padding-Right: 12px !important; /* Optional For caret */
-  text-align: Right !important;
-  text-overflow: ellipsis !important;    
+.footerBnt {
+  /* overflow: hidden !important; */
+  /* white-Space: nowrap !important; */
+  /* padding-Right: 12px !important; Optional For caret */
+  /* text-align: Right !important; */
+  /* text-overflow: ellipsis !important;     */
   width: 100%;
-  border-color: transparent !important;
-  background-color: #7da7ca !important;  
+  border-color: transparent;
+  background-color: #fff;
 }
 
 /* Optional For caret */
-.dropdown-toggle .caret {
+.footerBnt .caret {
   position: absolute;
   Right: 6px;
   top: calc(50% - 2px);
@@ -304,3 +304,35 @@ width: 44.5% !important;
 max-width: 350px !important;
 Right: 3% !important;
 } */
+
+.footerDropBtn,
+.canvaDropBtn {
+  position: relative !important;
+  transform: none !important;
+}
+
+.footerBnt {
+  border-top: 0.5px solid rgba(0, 0, 0, 0.1) !important;
+  -webkit-background-clip: padding-box;
+  /* for Safari */
+  background-clip: padding-box;
+  /* for IE9+, Firefox 4+, Opera, Chrome */
+  padding: 22px 0;
+}
+
+.footerBtnLast {
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+  -webkit-background-clip: padding-box;
+  /* for Safari */
+  background-clip: padding-box;
+  /* for IE9+, Firefox 4+, Opera, Chrome */
+}
+
+.myDropBtn {
+  color: #000;
+  text-decoration: none;
+}
+
+.IconGIF {
+  width: 250px;
+}
