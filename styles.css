@@ -17,7 +17,7 @@ body {
 }
 
 #backgroundimage1 {
-  background: url(Image/underwater.jpg);
+  background: url(Image/underwaterdarker.jpg);
   min-width: 100%;
   min-height: 100%;
   background-size: cover;
@@ -39,7 +39,7 @@ body {
 } */
 
 #backgroundimage3 {
-  background: url(Image/sand.jpg);
+  background: url(Image/sanddarker.jpg);
   min-width: 100%;
   min-height: 100%;
   background-size: cover;
@@ -213,6 +213,11 @@ ul {
   background: #00bfd6;
 }
 
+
+
+
+
+
 .myAnimation {
   width: 250px;
 }
@@ -294,7 +299,7 @@ ul {
   /* text-overflow: ellipsis !important;     */
   width: 100%;
   border-color: transparent;
-  background-color: #fff;
+  background-color: #f2f2f2;
 }
 
 /* Optional For caret */
@@ -314,6 +319,8 @@ Right: 3% !important;
 .canvaDropBtn {
   position: relative !important;
   transform: none !important;
+  background-color: #f2f2f2 !important;
+
 }
 
 .footerBnt {
@@ -334,7 +341,8 @@ Right: 3% !important;
 }
 
 .myDropBtn,
-.desktopBtn {
+.desktopBtn,
+.mail {
   color: #000;
   text-decoration: none;
 }
@@ -344,10 +352,16 @@ Right: 3% !important;
 }
 
 /* body{width:100%;} */
-ul {width:100%; list-style:none;}
-ul li {float:left; width:150px; font-weight:bold;}
-ul li ul {padding:0;}
-ul li ul li {float:none; padding:5px 0; font-weight:normal;}
+/* ul {width:100%; list-style:none;} */
+/* ul li {float:left; width:150px; font-weight:bold;} */
+/* ul li ul {padding:0;} */
+/* ul li ul li {float:none; padding:5px 0; font-weight:normal;} */
+
+#page4 {
+  background-color: #f2f2f2;
+}
+
+
 
 
 
@@ -376,13 +390,149 @@ ul li ul li {float:none; padding:5px 0; font-weight:normal;}
   .square {
     height: 400px;
     width: 500px;
-    background-color: rgba(4,28,44,.6);
+    background-color: rgba(4, 28, 44, .6);
     backdrop-filter: blur(10px);
     top: 230px;
-    
   }
 
+  /* page 2 */
+
+  #page2 {
+    /* background-color: #3881EF; */
+    /* Rectangle 9 */
+    /* position: absolute; */
+    width: 984px; 
+    /* dann auto bei width */
+    height: 770px;
+    background: linear-gradient(180deg, #3881EF 0%, #1E3EAE 47.92%, #020D44 100%);
+  }
 }
+
+/* Page 2 */
+.square2 {
+  height: 610px;
+  width: 420px;
+  background-color: rgba(4, 28, 44);
+  /* backdrop-filter: blur(10px); */
+  /* top: 230px; */
+}
+
+#hrPage2 {
+  color: #3881EF;
+  width: 360px;
+  margin: auto;
+  height: 15px;
+}
+
+/* Buttons on Page 2 Desktop */
+.myButton3 {
+  z-index: 0;
+  border: 1px solid #fff;
+  padding: 18px 20px;
+  /*war 5px*/
+  position: relative;
+  background: none;
+}
+
+.myButton3::after {
+  content: "SHOP NOW";
+  font-size: 13px;
+  padding: 18px 20px;
+  /* right: 5px;
+  left: 5px; */
+  background-color: #a3c8d5;
+  width: -webkit-fill-available;
+  z-index: 10000000000;
+  box-sizing: border-box;
+}
+
+.myButton3:focus {
+  border: 1px solid #00bfd6;
+  background: #00bfd6;
+}
+
+.myButton4 {
+  z-index: 0;
+  border: 1px solid #fff;
+  padding: 18px 20px;
+  /*war 5px*/
+  position: relative;
+  background: none;
+}
+
+.myButton4::after {
+  content: "ADD TO CART";
+  color: #fff;
+  font-size: 13px;
+  padding: 18px 20px;
+  /* right: 5px;
+  left: 5px; */
+  /* background-color: #a3c8d5; */
+  width: -webkit-fill-available;
+  z-index: 10000000000;
+  box-sizing: border-box;
+}
+
+.myButton4:hover {
+  background-color: #00bfd6;
+  border-color: #00bfd6;
+}
+
+/* .myButton4:focus {
+  border: 1px solid #00bfd6;
+  background: #00bfd6;
+} */
+
+
+/* Page 4 */
+
+.keinpadding {
+  padding: 0px !important;
+}
+
+.font9 {
+  font-size: 9px;
+}
+
+.font11 {
+  font-size: 11px;
+}
+
+.font12 {
+  font-size: 12px;
+  color: #041c2c;
+}
+
+#footerDiv {
+  width: 450px;
+}
+
+.footerIcon {
+  width: 20px;
+}
+
+#internationalForm {
+  background-color: #f2f2f2;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 150px;
+}
+
+#newsletterForm {
+  background-color: #f2f2f2;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 300px;
+  padding-left: 200px;
+}
+
+#newsletterBtn {
+  border: none;
+  padding-right: 100px;
+
+}
+
+
 
 
 
