@@ -4,6 +4,15 @@ body {
   margin: 0;
 }
 
+body .maxwidth {
+  max-width: 100%;
+}
+
+/* #backgroundimage1 {
+  max-width: 100% !important;
+  max-height: 100%;
+} */
+
 .myFont {
   font-family: 'Playfair Display', serif;
   color: #494949;
@@ -158,7 +167,7 @@ ul {
 .myButton {
   z-index: 0;
   border: 1px solid #fff;
-  padding: 18px 20px;
+  padding: 18px 0;
   /*war 5px*/
   position: relative;
   background: none;
@@ -167,31 +176,33 @@ ul {
 .myButton::after {
   content: "SEE THE CAMPAIGN";
   font-size: 13px;
-  padding: 10px;
+  padding: 15px 53px;
   /*war 5px*/
   right: 5px;
   left: 5px;
   background-color: #a3c8d5;
   width: -webkit-fill-available;
+  /* Grund für die anzeige in offcanvas */
   z-index: 10000000000;
   box-sizing: border-box;
 }
 
-.myButton:focus {
-  border: 1px solid #00bfd6;
-  background: #00bfd6;
+.myButton:hover {
+  background-color: #00bfd6;
+  border-color: #00bfd6;
 }
 
-.myButton::before {
+
+/* .myButton::before {
   background-color: #00bfd6;
   border: 1px solid #fff;
-}
+} */
 
 /* Button page 2, on light background */
 .myButton2 {
   z-index: 0;
   border: 1px solid #000;
-  padding: 5px;
+  padding: 18px 5px;
   position: relative;
   background: none;
 }
@@ -199,7 +210,7 @@ ul {
 .myButton2::after {
   content: "ADD TO CART";
   font-size: 13px;
-  padding: 18px 20px;
+  padding: 15px 29px;
   /* right: 5px;
   left: 5px; */
   background-color: #a3c8d5;
@@ -260,6 +271,10 @@ ul {
   /*Safari*/
   position: sticky;
   top: 0;
+}
+/* Das vielleicht nicht */
+.sticky{
+  position: fixed;
 }
 
 /* Schließen Button Off canvas */
@@ -401,7 +416,7 @@ Right: 3% !important;
     /* background-color: #3881EF; */
     /* Rectangle 9 */
     /* position: absolute; */
-    width: 984px; 
+    width: 984px;
     /* dann auto bei width */
     height: 770px;
     background: linear-gradient(180deg, #3881EF 0%, #1E3EAE 47.92%, #020D44 100%);
@@ -428,7 +443,7 @@ Right: 3% !important;
 .myButton3 {
   z-index: 0;
   border: 1px solid #fff;
-  padding: 18px 20px;
+  padding: 18px 0;
   /*war 5px*/
   position: relative;
   background: none;
@@ -437,13 +452,18 @@ Right: 3% !important;
 .myButton3::after {
   content: "SHOP NOW";
   font-size: 13px;
-  padding: 18px 20px;
+  padding: 13px 59px;
   /* right: 5px;
   left: 5px; */
   background-color: #a3c8d5;
   width: -webkit-fill-available;
   z-index: 10000000000;
   box-sizing: border-box;
+}
+
+.myButton3:hover {
+  background-color: #00bfd6;
+  border-color: #00bfd6;
 }
 
 .myButton3:focus {
@@ -483,6 +503,33 @@ Right: 3% !important;
   background: #00bfd6;
 } */
 
+/* Page 4 button  */
+.myButton5 {
+  z-index: 0;
+  border: 1px solid #fff;
+  padding: 18px 5px;
+  /*war 5px*/
+  position: relative;
+  background: none;
+}
+
+.myButton5::after {
+  content: "LEARN MORE";
+  font-size: 13px;
+  padding: 15px 53px;
+  /* right: 5px;
+  left: 5px; */
+  background-color: #a3c8d5;
+  width: -webkit-fill-available;
+  z-index: 10000000000;
+  box-sizing: border-box;
+}
+
+.myButton5:hover {
+  background-color: #00bfd6;
+  border-color: #00bfd6;
+}
+
 
 /* Page 4 */
 
@@ -521,17 +568,44 @@ Right: 3% !important;
 #newsletterForm {
   background-color: #f2f2f2;
   border: none;
-  border-bottom: 1px solid black;
-  width: 300px;
-  padding-left: 200px;
+  width: 100%;
 }
 
 #newsletterBtn {
   border: none;
-  padding-right: 100px;
-
 }
 
+.form-row {
+  border-bottom: 1px solid black;
+}
+
+.form-row .newsletterBtn-holder {
+  text-align: right;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* HEADER STICKY COLOR  */
+/* see js */
+.black{
+  position:fixed;
+  /* top:0;
+  background:#333;
+  width:100%;
+  height:50px; */
+  
+}
+
+/* .blue{
+  position:fixed;
+  top:0;
+  background:blue;
+  width:100%;
+  height:50px;
+} */
 
 
 
