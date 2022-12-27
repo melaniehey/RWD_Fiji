@@ -28,21 +28,21 @@
             <!-- blue bar -->
             <nav class="navbar">
                 <div class="container-fluid">
-                    <span class="mb-0 text-white">FREE STANDARD DELIVERY/Filiale erhältlich</span>
+                    <span class="mb-0 text-white">OUR SUNNY COMMUNITY @FIJI_SUNCARE</span>
                 </div>
             </nav>
         </div>
         <!-- </div> -->
     </div>
 
-    <div class="container">
+    <div class="container g-0 w-100 maxwidth">
         <div class="row">
             <!-- 3d modell -->
             <!-- <img id="suncreen" class="position-absolute bottom-0 start-50 translate-middle-x"
                 src="Image/50FaceAusgeschnittenZugeschnitten.png" alt="Sunscreen Photo"> -->
-            <div class="button-border d-grid gap-2 col-6 mx-auto position-absolute top-50 start-50 translate-middle">
+            <!-- <div class="button-border d-grid gap-2 col-6 mx-auto position-absolute top-50 start-50 translate-middle">
                 <button class="noDesktopBtn myFontSmall myButton" type="button"></button>
-            </div>
+            </div> -->
             <div class="row g-0">
                 <!-- Menü handy -->
                 <ul class="nav nav-pills nav-fill position-relative">
@@ -50,15 +50,25 @@
                         <!-- Offcanvas Menu-->
                         <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
                             aria-controls="offcanvasExample">
-                            <span class="material-symbols-outlined"> menu </span>
+                            <span class="menuIcon material-symbols-outlined"> menu </span>
                         </a>
                         <div class="offcanvas offcanvas-end border-0" tabindex="-1" id="offcanvasExample"
                             aria-labelledby="offcanvasExampleLabel">
-                            <div class="my-5 justify-content-between">
-                                <img src="Image/fiji-water-logo.png" alt="fiji-water-logo-image">
+                            <div class="container my-5">
+                                <div class="row justify-content-end">
+                                    <div class="col-6 col-sm-4"> <img id="logoBlack" src="Image/LogoBlack.svg"
+                                            alt="fiji-water-logo-image">
+                                    </div>
+                                    <div class="col-6 col-sm-4"><button type="button"
+                                            class="btn-close" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button></div>
+                                </div>
+                            </div>
+                            <!-- <div class="my-5 justify-content-between">
+                                <img id="logoBlack" src="Image/LogoBlack.svg" alt="fiji-water-logo-image">
                                 <button type="button" class="justify-content-end btn-close" data-bs-dismiss="offcanvas"
                                     aria-label="Close"></button>
-                            </div>
+                            </div> -->
                             <div class="dropdown-center text-center">
                                 <button class="btn mb-4 dropdown-toggle" type="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">
@@ -98,7 +108,8 @@
                     <li class="navbar-item nav-item position-absolute top-0 start-50 translate-middle-x">
                         <!-- <a href="https://fonts.google.com/icons?icon.query=x"></a> -->
                         <a href="http://www.meineWebseiteXYZ.de" title="Website name"><i class="icon-home icon-4x"></i>
-                            <img class="noDesktopBtn fiji-logo pt-1" src="Image/fiji-water-logo.png" alt="fiji-water-logo-image">
+                            <img class="noDesktopBtn fiji-logo pt-1" src="Image/LogoBlack.svg"
+                                alt="fiji-water-logo-image">
                         </a>
                     </li>
                     <!-- <a class="desktopBtn" href="">ABOUT US</a>
@@ -108,7 +119,7 @@
                         <!-- offcanvas einkaufswagen -->
                         <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample2" role="button"
                             aria-controls="offcanvasExample2">
-                            <span class="material-symbols-outlined">
+                            <span class="cartIcon material-symbols-outlined">
                                 shopping_cart
                             </span>
                         </a>
@@ -158,7 +169,7 @@
             </div>
         </div>
         <div class="row">
-            <div id="backgroundimage1">
+            <div id="backgroundimage1" style="height: 750px;">
                 <!-- TEST NAV DESKTOP -->
                 <div class="navSticky">
                     <div class="container">
@@ -189,63 +200,49 @@
                 <div class="container">
                     <div class="row">
                         <div id="page1" class="pt-4">
-                            <h1 class="page1Text text-center pt-5 text-white myFont">INTRODUCING 100% RECYCLED PLASTIC
-                                PACKAGING
-                            </h1>
-                            <p class="page1Text text-center pt-4 px-5 text-white">We are proud to announce that FIJI
-                                Water’s
-                                330mL and
-                                500mL bottles are now made of 100% recycled plastic.</p>
-                            <div class="desktopBtn square position-absolute bottom-0 start-0 ">
+                            <!-- smartphone  -->
+                            <div class="container noDesktopBtn">
+                                <h1 class="page1Text text-center pt-5 text-black myFontPage1">INTRODUCING 100% RECYCLED
+                                    PLASTIC
+                                    PACKAGING
+                                </h1>
+                                <p class="page1Text text-center pt-4 px-2 text-black">We are proud to announce that FIJI
+                                    Water’s
+                                    330mL and
+                                    500mL bottles are now made of 100% recycled plastic.</p>
+                                <div class="noDesktopBtn position-absolute top-50 start-50 translate-middle">
+                                    <button class="myFontSmall myButton6" type="button"></button>
+                                </div>
+                            </div>
+                            <!-- Smartphone  -->
+                            <div class="container">
+                                <img id="suncreen"
+                                    class="noDesktopBtn position-absolute bottom-0 start-50 translate-middle-x"
+                                    src="Image/50FaceAusgeschnittenZugeschnitten.png" alt="Sunscreen Photo">
+                            </div>
+                            <!-- desktop -->
+                            <div class="desktopBtn square position-absolute bottom-0 start-0 pe-5">
                                 <h1 class="pt-5 px-5 text-white">INTRODUCING 100% RECYCLED PLASTIC PACKAGING
                                 </h1>
                                 <p class="pt-4 px-5 text-white">We are proud to announce that FIJI Water’s
                                     330mL and
                                     500mL bottles are now made of 100% recycled plastic.</p>
-                                <div class="button-border d-grid gap-2 col-6 mx-auto">
+                                <div class="desktopBtn button-border d-grid gap-2 col-6 ps-5 pt-3">
                                     <button class="myFontSmall myButton" type="button"></button>
                                 </div>
                             </div>
-                            <img id="suncreen" class="position-absolute bottom-0 start-50 translate-middle-x"
-                                src="Image/50FaceAusgeschnittenZugeschnitten.png" alt="Sunscreen Photo">
+                            <!-- Desktop  -->
+                            <div class="container position-relative">
+                                <img id="suncreenDesktop"
+                                    class="desktopBtn position-absolute bottom-0 start-50 translate-middle-x"
+                                    src="Image/50FaceAusgeschnittenZugeschnitten.png" alt="Sunscreen Photo">
+                            </div>
                         </div>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
     <div class="row">
         <!-- <div id="backgroundimage2"> -->
         <div id="page2" class="pt-5">
@@ -363,28 +360,31 @@
 
                     <div class="row justify-content-md-center">
                         <div class="col">
-                            <p class="text-center pt-5 px-5 text-white">ORDER TO</p>
-                            <h1 class="text-center text-white myFont">PROTECT, CARE & ENJOY</h1>
+                            <h1 class="text-center pt-5 px-5 text-white noDesktopBtn myFontMiddle">PROTECT, CARE & ENJOY
+                            </h1>
+                            <h1 class="text-center pt-5 px-5 text-white desktopBtn myFontBig">PROTECT, CARE & ENJOY</h1>
                         </div>
                     </div>
                     <div class="row justify-content-md-center pb-5">
                         <div class="col pt-5">
-                            <img src="Image/SunAnimationWhite.svg" alt="Sonne Animation">
+                            <img style="width: 220px;" src="Image/gifSonneGroß.gif" alt="Sonne Animation">
                             <p class="text-center pt-3 px-5 text-white myFont">BROAD-SPECTRUM PROTECTION</p>
                             <p class="desktopBtn text-center pt-3 px-5 text-white">Our sunscreen protects your skin
                                 from sunburn, UV-A, UV-B and infrared rays.</p>
                         </div>
                         <div class="col pt-5">
-                            <img src="Image/CorallAnimationWhite.svg" alt="Koralle Animation">
+                            <img style="width: 185px;" src="Image/gifKoralleGroß.gif" alt="Koralle Animation">
                             <p class="text-center pt-3 px-5 text-white myFont">CORAL FRIENDLY FORMULA</p>
-                            <p class="desktopBtn text-center pt-3 px-5 text-white">Our sunscreen protects your skin
-                                from sunburn, UV-A, UV-B and infrared rays.</p>
+                            <p class="desktopBtn text-center pt-3 px-5 text-white">We do not use nanoparticles,
+                                microplastics, octocrylene or other ingredients that impair coral growth.</p>
                         </div>
                         <div class="col pt-5">
-                            <img class="IconGIF" src="Image/tropfenTestDick.gif" alt="Sonne Animation">
+                            <img style="width: 150px;" src="Image/tropfenTestDick.gif" alt="Sonne Animation">
                             <p class="text-center pt-3 px-5 text-white myFont">HELLO SUNSHINE</p>
-                            <p class="desktopBtn text-center pt-3 px-5 text-white">Our sunscreen protects your skin
-                                from sunburn, UV-A, UV-B and infrared rays.</p>
+                            <p class="desktopBtn text-center pt-3 px-5 text-white">Our Sunscreen combines reliable sun
+                                protection with perfectly coordinated skin care, a summery scent and responsible
+                                ingredients.
+                            </p>
                         </div>
                     </div>
                     <div class="row justify-content-md-center pb-5 pt-3">
@@ -402,34 +402,16 @@
             <div class="container">
                 <div class="footerDiv">
                     <div class="row justify-content-center">
-                        <img class="fiji-logo-4 pt-4" src="Image/fiji-water-logo.png" alt="fiji-water-logo-image">
+                        <img class="fiji-logo-4 pt-4" src="Image/LogoBlue.svg" alt="fiji-water-logo-image">
                     </div>
                     <div class="row">
                         <p class="text-center pt-5 px-5">NEWSLETTER</p>
-                        <h1 class="text-center myFont">STAY IN THE KNOW</h1>
+                        <h1 class="noDesktopBtn text-center myFontMiddle">STAY IN THE KNOW</h1>
+                        <h1 class="desktopBtn text-center myFontBig">STAY IN THE KNOW</h1>
                     </div>
-                    <!-- <div class="row pt-3">
-                            <div class="col">
-                                <p class="text-start ps-3">EMAIL ADDRESS</p>
-                            </div>
-                            <div class="col">
-                                <p class="text-end pe-3">SUBMIT</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="pe-4 ps-4">
-                                <hr class="style1">
-                            </div>
-                        </div> -->
-                    <div class="row pt-5 pb-5">
-                        <!-- <div class="col col-6">
-                                <input id="newsletterForm" type="email" placeholder="EMAIL ADDRESS" name="email"
-                                    required/>
-                            </div>
-                            <div class="col col-6">
-                                <button id="newsletterBtn" type="submit">SUBMIT</button>
-                            </div> -->
-                        <div class="container">
+                    <!-- Desktop -->
+                    <div class="row pb-5 pt-5">
+                        <div class="container desktopBtn">
                             <div class="row justify-content-center">
                                 <div class="col-6">
                                     <div class="container">
@@ -447,10 +429,45 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row px-5 pb-4 text-center">
-                        <div class="container">
+                    <div class="row pb-4 text-center">
+                        <div class="container desktopBtn">
                             <div class="row justify-content-center">
                                 <div class="col-6">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <label class="form-check-label">
+                                            I agree to my e-mail being stored and used
+                                            to receive the newsletter
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Smartphone -->
+                    <div class="row pb-5">
+                        <div class="container noDesktopBtn">
+                            <div class="row justify-content-center">
+                                <div class="col">
+                                    <div class="container">
+                                        <div class="row form-row">
+                                            <div class="col-9 newsletterForm-holder">
+                                                <input id="newsletterForm" type="email" placeholder="EMAIL ADDRESS"
+                                                    name="email" required />
+                                            </div>
+                                            <div class="col-3 newsletterBtn-holder">
+                                                <button id="newsletterBtn" type="submit">SUBMIT</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pb-4 text-center">
+                        <div class="container noDesktopBtn">
+                            <div class="row justify-content-center">
+                                <div class="col">
                                     <div class="form-check">
                                         <input class="form-check-input" type="checkbox">
                                         <label class="form-check-label">
@@ -527,51 +544,22 @@
                         </ul>
                     </div>
                 </div>
-                <!-- <div class="row">
-                        <ul class="desktopBtn text-center">
-                            <li>Home</li>
-                            <li>About Us
-                                <ul>
-                                    <li>Lorem Ipsum</li>
-                                    <li>Lorem Ipsum</li>
-                                    <li>Lorem Ipsum</li>
-                                    <li>Lorem Ipsum</li>
-                                </ul>
-                            </li>
-                            <li>Portfolio
-                                <ul>
-                                    <li>Lorem Ipsum</li>
-                                    <li>Lorem Ipsum</li>
-                                    <li>Lorem Ipsum</li>
-                                    <li>Lorem Ipsum</li>
-                                </ul>
-                            </li>
-                            <li>Clients</li>
-                            <li>Events
-                                <ul>
-                                    <li>Lorem Ipsum</li>
-                                    <li>Lorem Ipsum</li>
-                                    <li>Lorem Ipsum</li>
-                                </ul>
-                            </li>
-                            <li>Media<ul>
-                                    <li>Lorem Ipsum</li>
-                                    <li>Lorem Ipsum</li>
-                                    <li>Lorem Ipsum</li>
-                                    <li>ILorem Ipsum</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div> -->
                 <div class="footer border-top">
                     <div class="desktopBtn container px-4 pt-4">
                         <div class="row gx-5">
                             <div class="keinpadding col">
                                 <div class="font11 p-3">
                                     <p class="font12">CONTACT US</p>
-                                    <a class="mail" href="mailto:info@fijisuncare.de">info@fijisuncare.de</a>
-                                    <p class="font11">Unterallmendenstraße 21</p>
-                                    <p class="font11">78120 Furtwangen</p>
+                                    <ul>
+                                        <li><a class="font11 myDropBtn mb-2"
+                                                href="mailto:info@fijisuncare.de">info@fijisuncare.de</a></li>
+                                        <li>
+                                            <p class="font11 myDropBtn mb-0" href="#">Unterallmendenstraße 21</p>
+                                        </li>
+                                        <li>
+                                            <p class="font11 myDropBtn mb-2" href="">78120 Furtwangen</p>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                             <div class="keinpadding col">

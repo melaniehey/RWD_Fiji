@@ -13,16 +13,47 @@ body .maxwidth {
   max-height: 100%;
 } */
 
+.myFontSmall {
+  font-family: 'Montserrat', sans-serif;
+  color: #494949;
+  font-size: .75rem;
+}
+
 .myFont {
   font-family: 'Playfair Display', serif;
   color: #494949;
   font-size: 1.1125rem;
 }
 
-.myFontSmall {
-  font-family: 'Montserrat', sans-serif;
-  color: #494949;
-  font-size: .75rem;
+.myFontPage1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+}
+
+.myFontMiddle {
+  font-family: 'Playfair Display', serif;
+  color: #020D44;
+  font-size: 36px;
+}
+
+.myFontBig {
+  font-family: 'Playfair Display', serif;
+  color: #020D44;
+  font-size: 48px;
+}
+
+#logoBlack {
+  width: 60px;
+}
+
+.menuIcon {
+padding-left: 20px;
+padding-top: 10px;
+}
+
+.cartIcon {
+  padding-right: 20px;
+  padding-top: 10px;
 }
 
 #backgroundimage1 {
@@ -121,7 +152,15 @@ ul {
 /* svg von sconnencreme */
 #suncreen {
   width: auto !important;
-  height: 350px !important;
+  height: 250px !important;
+  top: 360px;
+}
+
+/* Desktop  */
+#suncreenDesktop {
+  width: auto !important;
+  height: 600px !important;
+  top: 70px
 }
 
 .sunscreen4 {
@@ -141,9 +180,10 @@ ul {
 
 .fiji-logo,
 .material-symbols-outlined {
-  height: 60px;
-  font-size: 40px !important;
-  color: aliceblue;
+  height: 50px;
+  font-size: 30px !important;
+  color: black;
+
 }
 
 .navbar .container-fluid {
@@ -176,7 +216,7 @@ ul {
 .myButton::after {
   content: "SEE THE CAMPAIGN";
   font-size: 13px;
-  padding: 15px 53px;
+  padding: 15px 40px;
   /*war 5px*/
   right: 5px;
   left: 5px;
@@ -185,6 +225,10 @@ ul {
   /* Grund für die anzeige in offcanvas */
   z-index: 10000000000;
   box-sizing: border-box;
+}
+
+.myButton:hover::after {
+  background-color: #00bfd6;
 }
 
 .myButton:hover {
@@ -219,12 +263,50 @@ ul {
   box-sizing: border-box;
 }
 
+.myButton2:hover::after {
+  background-color: #00bfd6;
+}
+
 .myButton2:focus {
   border: 1px solid #00bfd6;
   background: #00bfd6;
 }
 
+/* button page 1 smartphone  */
+.myButton6 {
+  z-index: 0;
+  border: 1px solid #fff;
+  padding: 18px 4px;
+  position: relative;
+  background: none;
+  top: 270px;
+}
 
+.myButton6::after {
+  content: "SEE THE CAMPAIGN";
+  font-size: 13px;
+  padding: 15px 25px;
+  /* right: 5px;
+  left: 5px; */
+  background-color: #a3c8d5;
+  width: -webkit-fill-available;
+  z-index: 10000000000;
+  box-sizing: border-box;
+}
+
+.myButton6:hover::after {
+  background-color: #00bfd6;
+}
+
+.myButton6:hover {
+  background-color: #00bfd6;
+  border-color: #00bfd6;
+}
+
+/* .myButton6:focus {
+  border: 1px solid #00bfd6;
+  background: #00bfd6;
+} */
 
 
 
@@ -272,8 +354,9 @@ ul {
   position: sticky;
   top: 0;
 }
+
 /* Das vielleicht nicht */
-.sticky{
+.sticky {
   position: fixed;
 }
 
@@ -334,9 +417,12 @@ Right: 3% !important;
 .canvaDropBtn {
   position: relative !important;
   transform: none !important;
-  background-color: #f2f2f2 !important;
-
 }
+
+.footerDropBtn {
+  background-color: #f2f2f2 !important;
+}
+
 
 .footerBnt {
   border-top: 0.5px solid rgba(0, 0, 0, 0.1) !important;
@@ -360,10 +446,6 @@ Right: 3% !important;
 .mail {
   color: #000;
   text-decoration: none;
-}
-
-.IconGIF {
-  width: 150px;
 }
 
 /* body{width:100%;} */
@@ -395,7 +477,7 @@ Right: 3% !important;
   #suncreen {
     /* display: none; */
     /* width: auto !important; */
-    height: 600px !important;
+    height: 330px !important;
   }
 
   .page1Text {
@@ -404,10 +486,10 @@ Right: 3% !important;
 
   .square {
     height: 400px;
-    width: 500px;
+    width: 590px;
     background-color: rgba(4, 28, 44, .6);
     backdrop-filter: blur(10px);
-    top: 230px;
+    top: 270px;
   }
 
   /* page 2 */
@@ -421,6 +503,7 @@ Right: 3% !important;
     height: 770px;
     background: linear-gradient(180deg, #3881EF 0%, #1E3EAE 47.92%, #020D44 100%);
   }
+  
 }
 
 /* Page 2 */
@@ -461,15 +544,19 @@ Right: 3% !important;
   box-sizing: border-box;
 }
 
+.myButton3:hover::after {
+  background-color: #00bfd6;
+}
+
 .myButton3:hover {
   background-color: #00bfd6;
   border-color: #00bfd6;
 }
 
-.myButton3:focus {
+/* .myButton3:focus {
   border: 1px solid #00bfd6;
   background: #00bfd6;
-}
+} */
 
 .myButton4 {
   z-index: 0;
@@ -523,6 +610,11 @@ Right: 3% !important;
   width: -webkit-fill-available;
   z-index: 10000000000;
   box-sizing: border-box;
+  color: #000;
+}
+
+.myButton5:hover::after {
+  background-color: #00bfd6;
 }
 
 .myButton5:hover {
@@ -590,13 +682,13 @@ Right: 3% !important;
 
 /* HEADER STICKY COLOR  */
 /* see js */
-.black{
-  position:fixed;
+.black {
+  position: fixed;
   /* top:0;
   background:#333;
   width:100%;
   height:50px; */
-  
+
 }
 
 /* .blue{
