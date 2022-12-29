@@ -19,6 +19,12 @@ body .maxwidth {
   font-size: .75rem;
 }
 
+.myFontSansSmall {
+  font-family: 'Montserrat', sans-serif;
+  color: #494949;
+  font-size: 16px;
+}
+
 .myFont {
   font-family: 'Playfair Display', serif;
   color: #494949;
@@ -47,8 +53,8 @@ body .maxwidth {
 }
 
 .menuIcon {
-padding-left: 20px;
-padding-top: 10px;
+  padding-left: 20px;
+  padding-top: 10px;
 }
 
 .cartIcon {
@@ -57,7 +63,7 @@ padding-top: 10px;
 }
 
 #backgroundimage1 {
-  background: url(Image/underwaterdarker.jpg);
+  background: url(Image/Background6.jpg);
   min-width: 100%;
   min-height: 100%;
   background-size: cover;
@@ -159,8 +165,8 @@ ul {
 /* Desktop  */
 #suncreenDesktop {
   width: auto !important;
-  height: 600px !important;
-  top: 70px
+  height: 670px !important;
+  top: 50px
 }
 
 .sunscreen4 {
@@ -216,7 +222,7 @@ ul {
 .myButton::after {
   content: "SEE THE CAMPAIGN";
   font-size: 13px;
-  padding: 15px 40px;
+  padding: 15px 68px;
   /*war 5px*/
   right: 5px;
   left: 5px;
@@ -355,9 +361,28 @@ ul {
   top: 0;
 }
 
-/* Das vielleicht nicht */
 .sticky {
-  position: fixed;
+  /* Das vielleicht nicht, wenn es da ist, ist es immer da, wenn nicht, verschwindet es */
+  /* position: fixed; */
+  max-width: 100% !important;
+}
+
+.sticky:hover {
+  background-color: #041c2c;
+}
+
+.alignmentNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnNavWhite {
+  color: #fff !important;
+}
+
+.bgcolor.scrolled {
+  background-color: #3881EF !important;
 }
 
 /* Schließen Button Off canvas */
@@ -381,12 +406,47 @@ ul {
   text-align: center;
 }
 
+/* Underline Effect */
+.underline {
+  color: #fff;
+  /* text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em; */
+
+  /* display: inline-block; */
+  /* padding: 15px 20px; */
+  position: relative;
+}
+
+.underline:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  background: #00bfd6;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.underline:hover:after {
+  width: 100%;
+  left: 0;
+}
+
 /* body */
 
 /* footer */
 
 .fiji-logo-4 {
   width: 100px !important;
+}
+
+.fiji-logo-5 {
+  width: 70px !important;
+  position: fixed;
 }
 
 .footerBnt {
@@ -485,11 +545,11 @@ Right: 3% !important;
   }
 
   .square {
-    height: 400px;
-    width: 590px;
+    height: 460px;
+    width: 700px;
     background-color: rgba(4, 28, 44, .6);
     backdrop-filter: blur(10px);
-    top: 270px;
+    top: 250px;
   }
 
   /* page 2 */
@@ -498,15 +558,34 @@ Right: 3% !important;
     /* background-color: #3881EF; */
     /* Rectangle 9 */
     /* position: absolute; */
-    width: 984px;
+    width: 100%;
     /* dann auto bei width */
     height: 770px;
     background: linear-gradient(180deg, #3881EF 0%, #1E3EAE 47.92%, #020D44 100%);
   }
-  
+
 }
 
 /* Page 2 */
+
+.carousel {
+  width: inherit;
+}
+
+.carousel-item img {
+  min-height: 400px;
+}
+
+.controlPrev {
+  left: 110px !important;
+  top: 450px !important;
+}
+
+.controlNext {
+  right: 110px !important;
+  top: 450px !important;
+}
+
 .square2 {
   height: 610px;
   width: 420px;

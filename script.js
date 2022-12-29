@@ -12,3 +12,10 @@
 //         }
 //     })
 //   })
+
+// ---------
+// $(window).scroll(function(){
+
+//     $('navSticky').toggleClass('scrolled',$(this).scrollTop()>50);
+
+// });
