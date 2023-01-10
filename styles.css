@@ -5,14 +5,118 @@ body {
   overflow-x: hidden;
 }
 
+/* Animation  */
+.animate-reveal {
+  opacity: 0;
+  -webkit-animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+  -moz-animation: reveal 1s ease-in 1 normal forwards;
+  -o-animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+  animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+}
+
+.animate-first {
+  -webkit-animation-delay: 500ms;
+  -moz-animation-delay: 500ms;
+  -o-animation-delay: 500ms;
+  animation-delay: 500ms;
+}
+
+.animate-second {
+  -webkit-animation-delay: 700ms;
+  -moz-animation-delay: 700ms;
+  -o-animation-delay: 700ms;
+  animation-delay: 700ms;
+}
+
+.animate-third {
+  -webkit-animation-delay: 1200ms;
+  -moz-animation-delay: 1200ms;
+  -o-animation-delay: 1200ms;
+  animation-delay: 1200ms;
+}
+
+.animate-fourth {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+@-webkit-keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-moz-keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-o-keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
 body .maxwidth {
   max-width: 100%;
 }
-
-/* #backgroundimage1 {
-  max-width: 100% !important;
-  max-height: 100%;
-} */
 
 .myFontSmall {
   font-family: 'Montserrat', sans-serif;
@@ -69,21 +173,8 @@ body .maxwidth {
   min-height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  /* overflow-y: hidden;
-  overflow-x: hidden; */
   background-position: center;
 }
-
-/* #backgroundimage2 {
-  background: lightpink; 
-  min-width: 100%;
-  min-height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow-y: hidden;
-  overflow-x: hidden;
-  background-position: center;
-} */
 
 #backgroundimage3 {
   background: url(Image/sanddarker2.jpg);
@@ -96,31 +187,9 @@ body .maxwidth {
   background-position: center;
 }
 
-/* background  */
-/* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Using_multiple_backgrounds */
-
-
-/*Regel verstärkt sich durch Body plus Klasse*/
 body .btn {
   border: none !important;
 }
-
-/* @font-face {
-  font-family: font_sansserif;
-  src: url(font1/static/Figtree-Light.ttf);
-  font-weight: lighter;
-} */
-
-/* @media only screen and (max-width: 600px) {
-  .material-symbols-outlined {
-    display: none;
-  }
-} */
-
-/* header */
-/* #header {
-  font-family: font_sansserif;
-} */
 
 .navbar {
   background-color: #041c2c;
@@ -139,16 +208,6 @@ body .btn {
 .tabletElement {
   display: none;
 }
-
-
-
-
-/* https://stackoverflow.com/questions/27973549/bootstrap-dropdown-move-other-content */
-/* https://getbootstrap.com/docs/5.0/layout/columns/#offset-classes */
-/* .container .dropdown-menu {
- position: static;
- float: none;
-} */
 
 .dropdown-content {
   border: none !important;
@@ -170,7 +229,7 @@ ul {
 #suncreenDesktop {
   width: auto !important;
   height: 630px !important;
-  top: 10px
+  top: 75px
 }
 
 .sunscreen4 {
@@ -363,19 +422,25 @@ ul {
   transition: 0.3s;
 }
 
+#stickyLogo {
+  top: 40px
+}
+
 .navSticky {
   position: -webkit-sticky;
   /*Safari*/
   position: sticky;
   top: 0;
-  z-index: 1000000; /*Herausfinden wie hoch z-index*/
+  z-index: 1000000;
+  /*Herausfinden wie hoch z-index*/
 }
 
 .sticky {
   /* Das vielleicht nicht, wenn es da ist, ist es immer da, wenn nicht, verschwindet es */
   position: fixed;
   max-width: 100% !important;
-  z-index: 1000000; /*Herausfinden wie hoch z-index*/
+  z-index: 1000000;
+  /*Herausfinden wie hoch z-index*/
 }
 
 .sticky:hover {
@@ -584,7 +649,7 @@ Right: 3% !important;
 
 }
 
-.btn-close{
+.btn-close {
   position: absolute;
   display: inline-block;
   top: 22px;
@@ -702,7 +767,7 @@ Right: 3% !important;
   height: 610px;
   width: 440px;
   background-color: rgba(4, 28, 44, .8);
-    backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   /* backdrop-filter: blur(10px); */
   /* top: 230px; */
 }
@@ -903,6 +968,10 @@ Right: 3% !important;
   .tabletElement {
     display: block;
   }
+
+  /* .dddeede {
+    display: none;
+  } */
 
   /* .noDesktopBtn {
   display: none;
