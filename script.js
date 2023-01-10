@@ -20,7 +20,7 @@
 
 // });
 // ------------
-// carousel
+// carousel Hausaufgabe VALLAH Text ändern
 function showDiv1() {
     document.getElementById('Square50Face').style.display = "block";
     document.getElementById('Square30Face').style.display = "none";
@@ -45,3 +45,21 @@ function showDiv1() {
     document.getElementById('Square50Body').style.display = "none";
     document.getElementById('Square30Face').style.display = "none";
  }
+
+ document.addEventListener("scroll", (event) => {
+   var scrollOffset = document.documentElement.scrollTop;
+   var navElement = document.getElementById("stickyNav");
+   var stickyLogo = document.getElementById("stickyLogo");
+
+   if(scrollOffset > 0){
+      navElement.style.backgroundColor = "#041c2c";
+      navElement.style.top = 0;
+      stickyLogo.style.top = "8px";
+
+   }else{
+      navElement.style.backgroundColor = "transparent";
+      navElement.style.top = "33px";
+      stickyLogo.style.top = "33px";
+   }
+   
+ });

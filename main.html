@@ -34,6 +34,96 @@
         </div>
         <!-- </div> -->
     </div>
+
+
+    <div id="stickyNav" class="sticky desktopBtn container text-center">
+        <div class="row alignmentNav">
+            <!-- https://www.geeksforgeeks.org/how-to-affect-other-elements-when-one-element-is-hovered-in-css/ -->
+            <div class="col-2">
+                <div class="underline dropdown-center text-center">
+                    <button class="btn btnNavWhite dropdown-toggle" type="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        SHOP
+                    </button>
+                    <ul class="canvaDropBtn dropdown-content dropdown-menu text-center">
+                        <li><a class="dropdown-item mb-2" href="#">Sunscreen</a></li>
+                        <li><a class="dropdown-item mb-2" href="#">Subscribe</a></li>
+                        <li><a class="dropdown-item mb-2" href="#">Gift Cards</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-2">
+                <button class="underline btn btnNavWhite" type="button">
+                    THE SUNSCREEN
+                </button>
+            </div>
+            <div class="col-2">
+                <button class="underline btn btnNavWhite" type="button">
+                    ABOUT US
+                </button>
+            </div>
+            <div class="col-2">
+                <div class="underline dropdown-center text-center">
+                    <button class="btn btnNavWhite dropdown-toggle" type="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        SUPPORT
+                    </button>
+                    <ul class="canvaDropBtn dropdown-content dropdown-menu text-center">
+                        <li><a class="dropdown-item mb-2" href="#">9AM - 5PM PST</a></li>
+                        <li><a class="dropdown-item mb-2" href="#">info@fijisunscreen.com</a></li>
+                        <li><a class="dropdown-item mb-2" href="#">Contact us</a></li>
+                        <li><a class="dropdown-item mb-2" href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-2">
+                <button class="underline btn btnNavWhite" type="button">
+                    ACCOUNT
+                </button>
+            </div>
+            <div class="col-2">
+                <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample3" role="button"
+                    aria-controls="offcanvasExample3">
+                    <span class="cartIcon btnNavWhite material-symbols-outlined">
+                        shopping_cart
+                    </span>
+                </a>
+                <div class="offcanvas offcanvas-end border-0" tabindex="-1" id="offcanvasExample3"
+                    aria-labelledby="offcanvasExampleLabel">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <button type="button"
+                                    class="justify-content-end btn-close position-absolute top-0 end-0 pt-4 pe-4"
+                                    data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                        </div>
+                        <div class="row pt-5">
+                            <div class="col">
+                                <p class="text-start ps-3">0 items</p>
+                            </div>
+                            <div class="col">
+                                <p class="text-end pe-3">
+                                    TOTAL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>$0</strong></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="pe-4 ps-4">
+                                <hr class="style1">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="align-items-center">
+                                <p>Your bag is empty</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <div class="container g-0 w-100 maxwidth">
         <div class="row">
             <!-- 3d modell -->
@@ -55,11 +145,10 @@
                             aria-labelledby="offcanvasExampleLabel">
                             <div class="container my-5">
                                 <div class="row justify-content-end">
-                                    <div class="col-6 col-sm-4"> <img id="logoBlack" src="Image/LogoBlack.svg"
-                                            alt="fiji-water-logo-image">
+                                    <div class="col-12"> 
+                                        <img id="logoBlack" src="Image/LogoBlack.svg" alt="fiji-water-logo-image">
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                     </div>
-                                    <div class="col-6 col-sm-4"><button type="button" class="btn-close"
-                                            data-bs-dismiss="offcanvas" aria-label="Close"></button></div>
                                 </div>
                             </div>
                             <!-- <div class="my-5 justify-content-between">
@@ -170,95 +259,7 @@
                 <div class="navSticky bgcolor">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <img class="desktopBtn fiji-logo-5" src="Image/LogoWhite.svg" alt="fiji-water-logo-image">
-                        </div>
-                    </div>
-                    <div class="container g-0 maxwidth">
-                        <div class="sticky desktopBtn container text-center">
-                            <div class="row alignmentNav">
-                                <!-- https://www.geeksforgeeks.org/how-to-affect-other-elements-when-one-element-is-hovered-in-css/ -->
-                                <div class="col-2">
-                                    <div class="underline dropdown-center text-center">
-                                        <button class="btn btnNavWhite dropdown-toggle" type="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            SHOP
-                                        </button>
-                                        <ul class="canvaDropBtn dropdown-content dropdown-menu text-center">
-                                            <li><a class="dropdown-item mb-2" href="#">Sunscreen</a></li>
-                                            <li><a class="dropdown-item mb-2" href="#">Subscribe</a></li>
-                                            <li><a class="dropdown-item mb-2" href="#">Gift Cards</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-2">
-                                    <button class="underline btn btnNavWhite" type="button">
-                                        THE SUNSCREEN
-                                    </button>
-                                </div>
-                                <div class="col-2">
-                                    <button class="underline btn btnNavWhite" type="button">
-                                        ABOUT US
-                                    </button>
-                                </div>
-                                <div class="col-2">
-                                    <div class="underline dropdown-center text-center">
-                                        <button class="btn btnNavWhite dropdown-toggle" type="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            SUPPORT
-                                        </button>
-                                        <ul class="canvaDropBtn dropdown-content dropdown-menu text-center">
-                                            <li><a class="dropdown-item mb-2" href="#">9AM - 5PM PST</a></li>
-                                            <li><a class="dropdown-item mb-2" href="#">info@fijisunscreen.com</a></li>
-                                            <li><a class="dropdown-item mb-2" href="#">Contact us</a></li>
-                                            <li><a class="dropdown-item mb-2" href="#">FAQ</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-2">
-                                    <button class="underline btn btnNavWhite" type="button">
-                                        ACCOUNT
-                                    </button>
-                                </div>
-                                <div class="col-2">
-                                    <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample3" role="button"
-                                        aria-controls="offcanvasExample3">
-                                        <span class="cartIcon btnNavWhite material-symbols-outlined">
-                                            shopping_cart
-                                        </span>
-                                    </a>
-                                    <div class="offcanvas offcanvas-end border-0" tabindex="-1" id="offcanvasExample3"
-                                        aria-labelledby="offcanvasExampleLabel">
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col">
-                                                    <button type="button"
-                                                        class="justify-content-end btn-close position-absolute top-0 end-0 pt-4 pe-4"
-                                                        data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                                </div>
-                                            </div>
-                                            <div class="row pt-5">
-                                                <div class="col">
-                                                    <p class="text-start ps-3">0 items</p>
-                                                </div>
-                                                <div class="col">
-                                                    <p class="text-end pe-3">
-                                                        TOTAL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>$0</strong></p>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="pe-4 ps-4">
-                                                    <hr class="style1">
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="align-items-center">
-                                                    <p>Your bag is empty</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <img id="stickyLogo" class="desktopBtn fiji-logo-5" src="Image/LogoWhite.svg" alt="fiji-water-logo-image">
                         </div>
                     </div>
                 </div>
@@ -545,23 +546,23 @@
                     <!-- Tablet -->
                     <div class="row justify-content-md-center pb-5">
                         <div class="col pt-5 tabletElement noDesktopBtn">
-                            <img style="width: 180px;" src="Image/gifSonneGroß.gif" alt="Sonne Animation">
-                            <p class="text-center text-white myFont">BROAD-SPECTRUM PROTECTION</p>
+                            <img class="iconGIF" src="Image/gifSonneGroß.gif" alt="Sonne Animation">
+                            <p class="text-center pt-4 text-white myFont">BROAD-SPECTRUM PROTECTION</p>
                             <p class="text-center pt-3 text-white myFontSansSmall">Our sunscreen
                                 protects your skin
                                 from sunburn, UV-A, UV-B and infrared rays.</p>
                         </div>
                         <div class="col pt-5 tabletElement noDesktopBtn">
-                            <img style="width: 145px;" src="Image/gifSonneGroß.gif" alt="Koralle Animation">
-                            <p class="text-center pt-2 text-white myFont">CORAL FRIENDLY FORMULA</p>
+                            <img class="iconGIF" src="Image/gifSonneGroß.gif" alt="Koralle Animation">
+                            <p class="text-center pt-4 text-white myFont">CORAL FRIENDLY FORMULA</p>
                             <p class="text-center pt-3 text-white myFontSansSmall">We do not use
                                 nanoparticles,
                                 microplastics, octocrylene or other ingredients that impair coral growth.</p>
                         </div>
                         <div class="col pt-5 tabletElement noDesktopBtn">
-                            <img style="width: 110px;" src="Image/gifSonneGroß.gif" alt="Sonne Animation">
-                            <p class="text-center pt-4 pb-3 text-white myFont">HELLO SUNSHINE</p>
-                            <p class="text-center pt-4 text-white myFontSansSmall">Our Sunscreen
+                            <img class="iconGIF" src="Image/gifSonneGroß.gif" alt="Sonne Animation">
+                            <p class="text-center pt-4 text-white myFont">HELLO SUNSHINE</p>
+                            <p class="text-center pt-3 text-white myFontSansSmall">Our Sunscreen
                                 combines reliable sun
                                 protection with perfectly coordinated skin care, a summery scent and responsible
                                 ingredients.

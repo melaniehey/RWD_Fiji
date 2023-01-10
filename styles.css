@@ -368,16 +368,18 @@ ul {
   /*Safari*/
   position: sticky;
   top: 0;
+  z-index: 1000000; /*Herausfinden wie hoch z-index*/
 }
 
 .sticky {
   /* Das vielleicht nicht, wenn es da ist, ist es immer da, wenn nicht, verschwindet es */
-  /* position: fixed; */
+  position: fixed;
   max-width: 100% !important;
+  z-index: 1000000; /*Herausfinden wie hoch z-index*/
 }
 
 .sticky:hover {
-  background-color: #041c2c;
+  background-color: #041c2c !important;
 }
 
 .alignmentNav {
@@ -527,6 +529,9 @@ Right: 3% !important;
   background-color: #f2f2f2;
 }
 
+.iconGIF {
+  width: 70%;
+}
 
 
 
@@ -577,6 +582,13 @@ Right: 3% !important;
     background: linear-gradient(180deg, #3881EF 0%, #1E3EAE 47.92%, #020D44 100%);
   }
 
+}
+
+.btn-close{
+  position: absolute;
+  display: inline-block;
+  top: 22px;
+  right: 22px;
 }
 
 /* Page 2 */
