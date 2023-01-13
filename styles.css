@@ -5,7 +5,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Animation  */
+/* Animation Page 1  */
 .animate-reveal {
   opacity: 0;
   -webkit-animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
@@ -209,13 +209,8 @@ body .btn {
   display: none;
 }
 
-.dropdown-content {
-  border: none !important;
-  font-size: 0.9rem !important;
-}
-
-ul {
-  list-style-type: none;
+.noSmartphoneElement {
+  display: none;
 }
 
 /* svg von sconnencreme */
@@ -239,20 +234,14 @@ ul {
 
 .action-btn {
   background-color: rgb(163, 200, 213) !important;
-  /* padding: 10px 20px 10px 20px !important; */
   font-size: 0.8rem !important;
 }
-
-/* .button-border {
-  border: #041c2c !important;
-} */
 
 .fiji-logo,
 .material-symbols-outlined {
   height: 50px;
   font-size: 30px !important;
   color: white;
-
 }
 
 .navbar .container-fluid {
@@ -304,12 +293,6 @@ ul {
   background-color: #00bfd6;
   border-color: #00bfd6;
 }
-
-
-/* .myButton::before {
-  background-color: #00bfd6;
-  border: 1px solid #fff;
-} */
 
 /* Button page 2, on light background */
 .biggerButton {
@@ -525,6 +508,15 @@ ul {
   position: fixed;
 }
 
+.dropdown-content {
+  border: none !important;
+  font-size: 0.9rem !important;
+}
+
+ul {
+  list-style-type: none;
+}
+
 .footerBnt {
   /* overflow: hidden !important; */
   /* white-Space: nowrap !important; */
@@ -607,6 +599,10 @@ Right: 3% !important;
 @media only screen and (min-width: 992px) {
   .tabletElement {
     display: none;
+  }
+
+  .noSmartphoneElement {
+    display: none !important;
   }
 
   .noDesktopBtn {
@@ -966,6 +962,10 @@ Right: 3% !important;
   }
 
   .tabletElement {
+    display: block;
+  }
+
+  .noSmartphoneElement {
     display: block;
   }
 
