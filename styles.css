@@ -168,7 +168,7 @@ body .maxwidth {
 }
 
 #backgroundimage1 {
-  background: url(Image/Background6.jpg);
+  background: url(Image/BackgroundPage1.jpg);
   min-width: 100%;
   min-height: 100%;
   background-size: cover;
@@ -177,7 +177,7 @@ body .maxwidth {
 }
 
 #backgroundimage3 {
-  background: url(Image/sanddarker2.jpg);
+  background: url(Image/sand.jpg);
   min-width: 100%;
   min-height: 100%;
   background-size: cover;
@@ -201,7 +201,7 @@ body .btn {
   letter-spacing: .053125em;
 }
 
-.desktopBtn {
+.desktopElement {
   display: none;
 }
 
@@ -213,15 +213,15 @@ body .btn {
   display: none;
 }
 
-/* svg von sconnencreme */
-#suncreen {
+/* svg von sonnencreme */
+#sunscreen {
   width: auto !important;
   height: 250px !important;
   top: 360px;
 }
 
 /* Desktop  */
-#suncreenDesktop {
+#sunscreenDesktop {
   width: auto !important;
   height: 630px !important;
   top: 75px
@@ -256,9 +256,7 @@ body .btn {
 .align-items-center {
   display: flex;
   align-items: center;
-  /*Aligns vertically center */
   justify-content: center;
-  /*Aligns horizontally center */
 }
 
 /* Button page 1, on dark background */
@@ -266,7 +264,6 @@ body .btn {
   z-index: 0;
   border: 1px solid #fff;
   padding: 18px 0;
-  /*war 5px*/
   position: relative;
   background: none;
 }
@@ -275,12 +272,10 @@ body .btn {
   content: "SEE THE CAMPAIGN";
   font-size: 13px;
   padding: 15px 68px;
-  /*war 5px*/
   right: 5px;
   left: 5px;
   background-color: #a3c8d5;
   width: -webkit-fill-available;
-  /* Grund für die anzeige in offcanvas */
   z-index: 10000000000;
   box-sizing: border-box;
 }
@@ -299,7 +294,6 @@ body .btn {
   width: 80% !important;
 }
 
-
 .myButton2 {
   z-index: 0;
   border: 1px solid #000;
@@ -312,8 +306,6 @@ body .btn {
   content: "ADD TO CART";
   font-size: 13px;
   padding: 15px 29px;
-  /* right: 5px;
-  left: 5px; */
   background-color: #a3c8d5;
   width: -webkit-fill-available;
   z-index: 10000000000;
@@ -329,7 +321,7 @@ body .btn {
   background: #00bfd6;
 }
 
-/* button page 1 smartphone  */
+/* button page 1 Smartphone  */
 .myButton6 {
   z-index: 0;
   border: 1px solid #fff;
@@ -343,8 +335,6 @@ body .btn {
   content: "SEE THE CAMPAIGN";
   font-size: 13px;
   padding: 15px 25px;
-  /* right: 5px;
-  left: 5px; */
   background-color: #a3c8d5;
   width: -webkit-fill-available;
   z-index: 10000000000;
@@ -360,42 +350,15 @@ body .btn {
   border-color: #00bfd6;
 }
 
-/* .myButton6:focus {
-  border: 1px solid #00bfd6;
-  background: #00bfd6;
-} */
-
-
-
-
 .myAnimation {
   width: 250px;
 }
-
-
-
-
-
-
 
 #navbar {
   display: flex;
   justify-content: space-between;
   list-style: none;
 }
-
-/* .sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  background-color: white;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-} */
 
 .sidenav a {
   padding: 8px 8px 8px 8px;
@@ -411,19 +374,15 @@ body .btn {
 
 .navSticky {
   position: -webkit-sticky;
-  /*Safari*/
   position: sticky;
   top: 0;
   z-index: 1000000;
-  /*Herausfinden wie hoch z-index*/
 }
 
 .sticky {
-  /* Das vielleicht nicht, wenn es da ist, ist es immer da, wenn nicht, verschwindet es */
   position: fixed;
   max-width: 100% !important;
-  z-index: 1000000;
-  /*Herausfinden wie hoch z-index*/
+  z-index: 10;
 }
 
 .sticky:hover {
@@ -450,7 +409,6 @@ body .btn {
   top: 10px;
   right: 25px;
   font-size: 36px;
-  /* margin-right: 50px; */
   width: 20px;
   height: 20px;
   color: #041c2c;
@@ -468,12 +426,6 @@ body .btn {
 /* Underline Effect */
 .underline {
   color: #fff;
-  /* text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 0.15em; */
-
-  /* display: inline-block; */
-  /* padding: 15px 20px; */
   position: relative;
 }
 
@@ -495,10 +447,6 @@ body .btn {
   left: 0;
 }
 
-/* body */
-
-/* footer */
-
 .fiji-logo-4 {
   width: 100px !important;
 }
@@ -518,28 +466,16 @@ ul {
 }
 
 .footerBnt {
-  /* overflow: hidden !important; */
-  /* white-Space: nowrap !important; */
-  /* padding-Right: 12px !important; Optional For caret */
-  /* text-align: Right !important; */
-  /* text-overflow: ellipsis !important;     */
   width: 100%;
   border-color: transparent;
   background-color: #f2f2f2;
 }
 
-/* Optional For caret */
 .footerBnt .caret {
   position: absolute;
   Right: 6px;
   top: calc(50% - 2px);
 }
-
-/* .customdropdown {
-width: 44.5% !important;
-max-width: 350px !important;
-Right: 3% !important;
-} */
 
 .footerDropBtn,
 .canvaDropBtn {
@@ -550,7 +486,6 @@ Right: 3% !important;
 .footerDropBtn {
   background-color: #f2f2f2 !important;
 }
-
 
 .footerBnt {
   border-top: 0.5px solid rgba(0, 0, 0, 0.1) !important;
@@ -570,17 +505,11 @@ Right: 3% !important;
 }
 
 .myDropBtn,
-.desktopBtn,
+.desktopElement,
 .mail {
   color: #000;
   text-decoration: none;
 }
-
-/* body{width:100%;} */
-/* ul {width:100%; list-style:none;} */
-/* ul li {float:left; width:150px; font-weight:bold;} */
-/* ul li ul {padding:0;} */
-/* ul li ul li {float:none; padding:5px 0; font-weight:normal;} */
 
 #page4 {
   background-color: #f2f2f2;
@@ -588,61 +517,6 @@ Right: 3% !important;
 
 .iconGIF {
   width: 70%;
-}
-
-
-
-
-/* DESKTOP */
-/* Page 1 */
-
-@media only screen and (min-width: 992px) {
-  .tabletElement {
-    display: none;
-  }
-
-  .noSmartphoneElement {
-    display: none !important;
-  }
-
-  .noDesktopBtn {
-    display: none;
-  }
-
-  .desktopBtn {
-    display: block;
-  }
-
-  #suncreen {
-    /* display: none; */
-    /* width: auto !important; */
-    height: 330px !important;
-  }
-
-  .page1Text {
-    display: none;
-  }
-
-  .square {
-    height: 460px;
-    width: 700px;
-    background-color: rgba(4, 28, 44, .6);
-    backdrop-filter: blur(10px);
-    top: 250px;
-  }
-
-  /* page 2 */
-
-  #page2 {
-    /* background-color: #3881EF; */
-    /* Rectangle 9 */
-    /* position: absolute; */
-    width: 100%;
-    /* dann auto bei width */
-    height: 770px;
-    background: linear-gradient(180deg, #3881EF 0%, #1E3EAE 47.92%, #020D44 100%);
-  }
-
 }
 
 .btn-close {
@@ -657,16 +531,6 @@ Right: 3% !important;
 .stack-top {
   z-index: 9;
 }
-
-/* carousel 2 */
-/* .slide-container {
-                                width: 100%;
-                                height: 85vh;
-                                display: flex;
-                                align-items: center;
-                                overflow: hidden;
-                                
-                            } */
 
 .image-slider {
   width: 100%;
@@ -740,32 +604,11 @@ Right: 3% !important;
   left: -40%;
 }
 
-/* Carousel 1 */
-.carousel {
-  width: inherit;
-}
-
-.carousel-item img {
-  min-height: 400px;
-}
-
-.controlPrev {
-  left: 110px !important;
-  top: 450px !important;
-}
-
-.controlNext {
-  right: 110px !important;
-  top: 450px !important;
-}
-
 .square2 {
   height: 610px;
   width: 440px;
   background-color: rgba(4, 28, 44, .8);
   backdrop-filter: blur(10px);
-  /* backdrop-filter: blur(10px); */
-  /* top: 230px; */
 }
 
 #hrPage2 {
@@ -780,7 +623,6 @@ Right: 3% !important;
   z-index: 0;
   border: 1px solid #fff;
   padding: 18px 0;
-  /*war 5px*/
   position: relative;
   background: none;
 }
@@ -789,8 +631,6 @@ Right: 3% !important;
   content: "SHOP NOW";
   font-size: 13px;
   padding: 13px 130px;
-  /* right: 5px;
-  left: 5px; */
   background-color: #a3c8d5;
   width: -webkit-fill-available;
   z-index: 10000000000;
@@ -806,16 +646,10 @@ Right: 3% !important;
   border-color: #00bfd6;
 }
 
-/* .myButton3:focus {
-  border: 1px solid #00bfd6;
-  background: #00bfd6;
-} */
-
 .myButton4 {
   z-index: 0;
   border: 1px solid #fff;
   padding: 18px 20px;
-  /*war 5px*/
   position: relative;
   background: none;
 }
@@ -825,9 +659,6 @@ Right: 3% !important;
   color: #fff;
   font-size: 13px;
   padding: 18px 20px;
-  /* right: 5px;
-  left: 5px; */
-  /* background-color: #a3c8d5; */
   width: -webkit-fill-available;
   z-index: 10000000000;
   box-sizing: border-box;
@@ -838,17 +669,11 @@ Right: 3% !important;
   border-color: #00bfd6;
 }
 
-/* .myButton4:focus {
-  border: 1px solid #00bfd6;
-  background: #00bfd6;
-} */
-
 /* Page 4 button  */
 .myButton5 {
   z-index: 0;
   border: 1px solid #fff;
   padding: 18px 5px;
-  /*war 5px*/
   position: relative;
   background: none;
 }
@@ -857,8 +682,6 @@ Right: 3% !important;
   content: "LEARN MORE";
   font-size: 13px;
   padding: 15px 53px;
-  /* right: 5px;
-  left: 5px; */
   background-color: #a3c8d5;
   width: -webkit-fill-available;
   z-index: 10000000000;
@@ -933,30 +756,58 @@ Right: 3% !important;
   padding: 0;
 }
 
-/* HEADER STICKY COLOR  */
-/* see js */
-.black {
-  position: fixed;
-  /* top:0;
-  background:#333;
-  width:100%;
-  height:50px; */
+/* DESKTOP */
 
+@media only screen and (min-width: 992px) {
+
+  /* Page 1 */
+
+  .tabletElement {
+    display: none;
+  }
+
+  .noSmartphoneElement {
+    display: none !important;
+  }
+
+  .noDesktopElement {
+    display: none;
+  }
+
+  .desktopElement {
+    display: block;
+  }
+
+  #sunscreen {
+    height: 330px !important;
+  }
+
+  .page1Text {
+    display: none;
+  }
+
+  .square {
+    height: 460px;
+    width: 700px;
+    background-color: rgba(4, 28, 44, .6);
+    backdrop-filter: blur(10px);
+    top: 250px;
+  }
+
+  /* page 2 */
+
+  #page2 {
+    width: 100%;
+    height: 770px;
+    background: linear-gradient(180deg, #3881EF 0%, #1E3EAE 47.92%, #020D44 100%);
+  }
 }
-
-/* .blue{
-  position:fixed;
-  top:0;
-  background:blue;
-  width:100%;
-  height:50px;
-} */
-
 
 /* TABLET */
 @media only screen and (min-width: 820px) {
 
   /* Page 1 */
+
   .noTabletElement {
     display: none;
   }
@@ -969,22 +820,6 @@ Right: 3% !important;
     display: block;
   }
 
-  /* .dddeede {
-    display: none;
-  } */
-
-  /* .noDesktopBtn {
-  display: none;
-} */
-
-  /* .squareTablet {
-  height: 460px;
-  width: 400px;
-  background-color: rgba(4, 28, 44, .6);
-  backdrop-filter: blur(10px);
-  top: 250px;
-} */
-
   #sunscreenTablet {
     width: auto !important;
     height: 300px !important;
@@ -994,14 +829,4 @@ Right: 3% !important;
   .btnTablet {
     margin-top: 130px;
   }
-
-
-  /* Page 2 */
-  /* nichts */
-
-  /* Page 3 */
-  /* nichts wichtiges */
-
-  /* Page 4 */
-  /* nichts */
 }

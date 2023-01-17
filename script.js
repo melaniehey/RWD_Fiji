@@ -1,26 +1,3 @@
-// https://codepen.io/javedkhanui/pen/VXPxPw
-
-// $(document).ready(function(){
-//     $(window).scroll(function(){
-//         var scroll = $(window).scrollTop();
-//         if (scroll > 300) {
-//           $(".black").css("background" , "blue");
-//         }
-  
-//         else{
-//             $(".black").css("background" , "#333");  	
-//         }
-//     })
-//   })
-
-// ---------
-// $(window).scroll(function(){
-
-//     $('navSticky').toggleClass('scrolled',$(this).scrollTop()>50);
-
-// });
-// ------------
-// carousel Hausaufgabe VALLAH Text ändern
 function showDiv1() {
     document.getElementById('Square50Face').style.display = "block";
     document.getElementById('Square30Face').style.display = "none";
@@ -61,5 +38,4 @@ function showDiv1() {
       navElement.style.top = "33px";
       stickyLogo.style.top = "33px";
    }
-   
  });
